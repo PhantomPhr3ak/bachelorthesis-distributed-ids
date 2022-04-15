@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <DVCD label="Local substation 1">
-    <ip>0.0.0.0</ip>
+    <ip>127.0.0.1</ip>
     <port>10502</port>
     <identity>
         <vendor name="UTwente 0" url="https://www.utwente.nl" />
@@ -38,7 +38,6 @@
       
     <reg type="hr" index="104" label="max-branch_40" dt="64bit_float">0.5</reg>
     <reg type="hr" index="108" label="max-branch_40" dt="64bit_float">0.4</reg>
-    <reg type="hr" index="112" label="max-branch_40" dt="64bit_float">5.0</reg>
     <reg type="hr" index="116" label="max-branch_27" dt="64bit_float">0.4</reg>
     <reg type="hr" index="120" label="max-branch_38" dt="64bit_float">5.0</reg>
     <reg type="hr" index="124" label="max-branch_27" dt="64bit_float">5.0</reg>
@@ -62,7 +61,7 @@
     <reg type="hr" index="192" label="max-node_b23" dt="64bit_float">10</reg>
     <reg type="hr" index="196" label="max-node_b23" dt="64bit_float">10</reg>
     <reg type="hr" index="200" label="max-node_b23" dt="64bit_float">10</reg>
-    <reg type="hr" index="204" label="max-node_b24" dt="64bit_float">10</reg>
-
+  
+  
     <code>mosaikrtu/conf/rtu_logic_good.py</code>
 </DVCD>

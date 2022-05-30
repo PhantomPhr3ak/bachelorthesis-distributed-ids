@@ -20,7 +20,7 @@ from topology_loader.topology_loader import topology_loader
 from distutils.util import strtobool
 
 try:
-    os.remove('./outputs/outout_during_rtu_step.txt')
+    os.remove('./outputs/output_during_rtu_step.txt')
 except OSError:
     pass
 

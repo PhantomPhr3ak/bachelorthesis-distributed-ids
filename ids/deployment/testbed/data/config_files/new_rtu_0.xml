@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <DVCD label="Local substation 1">
-    <ip>127.0.0.1</ip>
+    <ip>0.0.0.0</ip>
     <port>10502</port>
     <identity>
         <vendor name="UTwente 0" url="https://www.utwente.nl" />
@@ -8,8 +8,10 @@
         <version major="0" minor="5" />
     </identity>
 
+    <!-- Switches -->
     <reg type="co" index="0" label="switch_3-branch_27" dt="bool">True</reg>
 
+    <!-- Sensors (Voltages) -->
     <reg type="hr" index="0" label="sensor_13-node_b19" dt="64bit_float">12.34</reg>
     <reg type="hr" index="4" label="sensor_14-node_b19" dt="64bit_float">67.0</reg>
     <reg type="hr" index="8" label="sensor_16-node_b19" dt="64bit_float">67.0</reg>
@@ -21,8 +23,9 @@
     <reg type="hr" index="32" label="sensor_21-node_b23" dt="64bit_float">0</reg>
     <reg type="hr" index="36" label="sensor_22-node_b23" dt="64bit_float">23.56</reg>
     <reg type="hr" index="40" label="sensor_23-node_b23" dt="64bit_float">23.56</reg>
-    <reg type="hr" index="44" label="sensor_24-node_b24" dt="64bit_float">0</reg>
+    <reg type="hr" index="44" label="sensor_24-node_b23" dt="64bit_float">0</reg>
 
+    <!-- Sensors (Currents) -->
     <reg type="hr" index="48" label="sensor_13-branch_40" dt="64bit_float">12.34</reg>
     <reg type="hr" index="52" label="sensor_14-branch_40" dt="64bit_float">67.0</reg>
     <reg type="hr" index="56" label="sensor_16-branch_27" dt="64bit_float">0</reg>
@@ -35,9 +38,11 @@
     <reg type="hr" index="84" label="sensor_22-branch_38" dt="64bit_float">23.56</reg>
     <reg type="hr" index="88" label="sensor_23-branch_31" dt="64bit_float">23.56</reg>
     <reg type="hr" index="92" label="sensor_24-branch_39" dt="64bit_float">0</reg>
-      
+
+    <!-- Maximalbelastbarkeit Leitungen -->
     <reg type="hr" index="104" label="max-branch_40" dt="64bit_float">0.5</reg>
     <reg type="hr" index="108" label="max-branch_40" dt="64bit_float">0.4</reg>
+    <reg type="hr" index="112" label="max-branch_40" dt="64bit_float">5.0</reg>
     <reg type="hr" index="116" label="max-branch_27" dt="64bit_float">0.4</reg>
     <reg type="hr" index="120" label="max-branch_38" dt="64bit_float">5.0</reg>
     <reg type="hr" index="124" label="max-branch_27" dt="64bit_float">5.0</reg>
@@ -48,7 +53,8 @@
     <reg type="hr" index="144" label="max-branch_38" dt="64bit_float">0.4</reg>
     <reg type="hr" index="148" label="max-branch_31" dt="64bit_float">0.4</reg>
     <reg type="hr" index="152" label="max-branch_39" dt="64bit_float">0.4</reg>
-    
+
+    <!-- Maximalbelastbarkeit Busse -->
     <reg type="hr" index="156" label="max-node_b24" dt="64bit_float">10</reg>
     <reg type="hr" index="160" label="max-node_b19" dt="64bit_float">10</reg>
     <reg type="hr" index="164" label="max-node_b19" dt="64bit_float">10</reg>
@@ -61,7 +67,7 @@
     <reg type="hr" index="192" label="max-node_b23" dt="64bit_float">10</reg>
     <reg type="hr" index="196" label="max-node_b23" dt="64bit_float">10</reg>
     <reg type="hr" index="200" label="max-node_b23" dt="64bit_float">10</reg>
-  
-  
+    <reg type="hr" index="204" label="max-node_b24" dt="64bit_float">10</reg>
+
     <code>mosaikrtu/conf/rtu_logic_good.py</code>
 </DVCD>

@@ -2,13 +2,19 @@
 
 # Run with: DOCKER_BUILDKIT=1 docker build -t mosaik-testbed . && docker run -p8000:8000 mosaik-testbed
 
-FROM python:3.9-slim-bullseye
+FROM python:3.7-slim-buster
 
 RUN apt-get update && apt-get -y install \
     gcc \
     libhdf5-dev \
     libopenblas-dev \
-    liblapack-dev
+    liblapack-dev \
+    libssl-dev \
+    libffi-dev \
+    libatlas-base-dev
+
+
+RUN echo "[global] \n extra-index-url=https://www.piwheels.org/simple" >> /etc/pip.conf
 
 # upgrade pip
 RUN /usr/local/bin/python -m pip install --upgrade pip
@@ -34,3 +40,4 @@ COPY . .
 
 EXPOSE 10502 10503 8000
 ENTRYPOINT [ "python", "test_scenario.py"]
+

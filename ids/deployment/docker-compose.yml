@@ -25,10 +25,11 @@ services:
   c2:
     image: itsis-blackout/ids_base:latest
     build:
-      context: ../implementation
+      context: ../
+      dockerfile: implementation/Dockerfile
     container_name: mosaik_ids_c2
     env_file: config/environment/c2.env
-    command: python c2_server.py
+    command: python implementation/c2_server.py
     ports:
       - 8777:8777 # Websocket Port for connection to Visualization
     volumes:
@@ -48,10 +49,11 @@ services:
   local_monitor_1:
     image: itsis-blackout/ids_base:latest
     build:
-      context: ../implementation
+      context: ../
+      dockerfile: implementation/Dockerfile
     container_name: mosaik_ids_lm_1
     env_file: config/environment/lm_1.env
-    command: python local_monitor.py
+    command: python implementation/local_monitor.py
     volumes:
       - ./config/certificates:/config/certificates
       - ./config/rtu_0.json:/config/rtu_0.json
@@ -59,10 +61,11 @@ services:
   local_monitor_2:
     image: itsis-blackout/ids_base:latest
     build:
-      context: ../implementation
+      context: ../
+      dockerfile: implementation/Dockerfile
     container_name: mosaik_ids_lm_2
     env_file: config/environment/lm_2.env
-    command: python local_monitor.py
+    command: python implementation/local_monitor.py
     volumes:
       - ./config/certificates:/config/certificates
       - ./config/rtu_1.json:/config/rtu_1.json
@@ -70,19 +73,21 @@ services:
   neighborhood_monitor_1:
     image: itsis-blackout/ids_base:latest
     build:
-      context: ../implementation
+      context: ../
+      dockerfile: implementation/Dockerfile
     container_name: mosaik_ids_nm_1
     env_file: config/environment/nm_1.env
-    command: python neighborhood_monitor.py
+    command: python implementation/neighborhood_monitor.py
     volumes:
       - ./config/certificates:/config/certificates
 
   neighborhood_monitor_2:
     image: itsis-blackout/ids_base:latest
     build:
-      context: ../implementation
+      context: ../
+      dockerfile: implementation/Dockerfile
     container_name: mosaik_ids_nm_2
     env_file: config/environment/nm_2.env
-    command: python neighborhood_monitor.py
+    command: python implementation/neighborhood_monitor.py
     volumes:
       - ./config/certificates:/config/certificates

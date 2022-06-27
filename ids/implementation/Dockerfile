@@ -1,9 +1,16 @@
 # syntax=docker/dockerfile:1.3
 
-FROM python:3.9-slim-buster
+FROM python:3.7-slim-buster
 WORKDIR /ids
 
-COPY requirements.txt requirements.txt
-RUN pip install -r requirements.txt
+RUN echo "[global] \n extra-index-url=https://www.piwheels.org/simple" >> /etc/pip.conf
 
-COPY .. .
+RUN apt-get update
+RUN apt-get -y install libffi-dev
+
+RUN /usr/local/bin/python -m pip install --upgrade pip
+
+COPY implementation/requirements.txt implementation/requirements.txt
+RUN pip install -r implementation/requirements.txt
+
+COPY . .

@@ -4,7 +4,8 @@ function initWebsocket() {
 
     // Save bandwidth by storing the ID of the last report of a violation
     let lastTimestamp = -1;
-    let socket = new WebSocket("ws://localhost:8777");
+    //TODO change url to c2
+    let socket = new WebSocket("ws://raspberrypi1:8777");
 
     // event triggered when websocket is connected
     socket.onopen = function (e) {
@@ -13,7 +14,8 @@ function initWebsocket() {
         setInterval(function () {
             // Automatically retry connecting to C2 websocket when connection is lost / closed
             if (socket.readyState === WebSocket.CLOSED) {
-                socket = new WebSocket("ws://localhost:8777");
+                //TODO change url to c2
+                socket = new WebSocket("ws://raspberrypi1:8777");
                 return;
             }
             

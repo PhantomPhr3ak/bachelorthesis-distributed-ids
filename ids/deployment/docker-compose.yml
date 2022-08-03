@@ -84,7 +84,7 @@ services:
     env_file: config/environment/nm_1.env
     command: python implementation/neighborhood_monitor.py
     ports:
-      - 10808:10808 # OPC Server
+      - 10809:10809 # OPC Server
     volumes:
       - ./config/certificates:/config/certificates
 
@@ -97,6 +97,6 @@ services:
     env_file: config/environment/nm_2.env
     command: python implementation/neighborhood_monitor.py
     ports:
-      - 10808:10808 # OPC Server
+      - 10809:10809 # OPC Server
     volumes:
       - ./config/certificates:/config/certificates

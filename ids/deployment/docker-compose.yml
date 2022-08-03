@@ -14,8 +14,8 @@ services:
       start_period: 60s
     ports:
       - 9000:8000 # MOSAIK visualization
-      - 10503:10503 # RTU Port
       - 10502:10502 # RTU Port
+      - 10503:10503 # RTU Port
     environment:
       - PYTHONUNBUFFERED=1 # disable console output buffering
     # FOR DEVELOPMENT ONLY!
@@ -32,6 +32,7 @@ services:
     command: python implementation/c2_server.py
     ports:
       - 8777:8777 # Websocket Port for connection to Visualization
+      - 4840:4840 # OPC C2 Server Port
     volumes:
       - ./config/certificates:/config/certificates
 
@@ -54,6 +55,8 @@ services:
     container_name: mosaik_ids_lm_1
     env_file: config/environment/lm_1.env
     command: python implementation/local_monitor.py
+    ports:
+      - 10808:10808 # OPC Server
     volumes:
       - ./config/certificates:/config/certificates
       - ./config/rtu_0.json:/config/rtu_0.json
@@ -66,6 +69,8 @@ services:
     container_name: mosaik_ids_lm_2
     env_file: config/environment/lm_2.env
     command: python implementation/local_monitor.py
+    ports:
+      - 10808:10808 # OPC Server
     volumes:
       - ./config/certificates:/config/certificates
       - ./config/rtu_1.json:/config/rtu_1.json
@@ -78,6 +83,8 @@ services:
     container_name: mosaik_ids_nm_1
     env_file: config/environment/nm_1.env
     command: python implementation/neighborhood_monitor.py
+    ports:
+      - 10808:10808 # OPC Server
     volumes:
       - ./config/certificates:/config/certificates
 
@@ -89,5 +96,7 @@ services:
     container_name: mosaik_ids_nm_2
     env_file: config/environment/nm_2.env
     command: python implementation/neighborhood_monitor.py
+    ports:
+      - 10808:10808 # OPC Server
     volumes:
       - ./config/certificates:/config/certificates

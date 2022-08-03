@@ -150,6 +150,7 @@ class C2:
         await cert_user_manager.add_user(self.config.lm_cert, name="lm")
         await cert_user_manager.add_user(self.config.nm_cert, name="nm")
 
+        #set endpoint
         await server.init()
         server.set_endpoint(self.config.c2_address)
 

@@ -98,7 +98,7 @@ class LM:
             new_struct_field("current", ua.VariantType.Float),
             new_struct_field("voltage", ua.VariantType.Float)
         ])
-        # Create nested data structure that includes switch and meter data
+        # Create nested data structure that includes switch and meter data (and timestamp ts)
         _, _ = await new_struct(server, idx, "RTUData", [
             new_struct_field("ts", ua.VariantType.Float),
             new_struct_field("switches", switch_data, array=True),

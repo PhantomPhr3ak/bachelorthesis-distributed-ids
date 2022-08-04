@@ -80,6 +80,8 @@ class LM:
 
         await server.init()
         server.set_endpoint(self.config.lm_opc_address)
+        server.set_match_discovery_client_ip(self, True)
+        server.socket_address = ["0.0.0.0", 10808]
         logger.info(f"LM serving OPC Server on: {self.config.lm_opc_address}")
 
         idx = await server.register_namespace(self.config.opc_domain)

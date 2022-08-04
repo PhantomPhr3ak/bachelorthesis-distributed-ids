@@ -119,6 +119,10 @@ class NM:
         await server.load_certificate(self.config.cert)
         await server.load_private_key(self.config.private_key, self.config.private_key_password)
 
+        # Configure networking of the opc server
+        # set_endpoint                  - set external ip visible to the client
+        # socket_address                - set internal ip and port
+        # set_match_discovery_client_ip - disables some automatic changes usually performed by the server
         await server.init()
         server.set_endpoint(self.config.nm_opc_address)
         server.set_match_discovery_client_ip(True)

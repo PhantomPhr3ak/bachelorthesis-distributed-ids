@@ -7,8 +7,8 @@ COPY deployment/testbed/data/config_files/ deployment/testbed/data/config_files/
 COPY replay_csv/ replay_csv/
 
 # Install dependencies
-COPY requirements.txt requirements.txt
-RUN pip install -r requirements.txt
+COPY replay_csv/requirements.txt replay_csv/requirements.txt
+RUN pip install -r replay_csv/requirements.txt
 
 EXPOSE 10502 10503
 ENTRYPOINT [ "python", "replay.py"]

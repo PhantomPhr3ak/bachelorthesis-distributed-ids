@@ -11,4 +11,4 @@ COPY replay_csv/requirements.txt replay_csv/requirements.txt
 RUN pip install -r replay_csv/requirements.txt
 
 EXPOSE 10502 10503
-ENTRYPOINT [ "python", "replay.py"]
+ENTRYPOINT [ "python", "replay_csv/replay.py"]

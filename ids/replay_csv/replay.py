@@ -20,7 +20,7 @@ class Replay:
     def load_scenario(self, x):
         # Konfiguration des Testbeds aus XML lesen
         for i in [0, 1]:
-            self.configs[i] = load_rtu("replay_csv/data/new_rtu_{}.xml".format(i))
+            self.configs.append(load_rtu("replay_csv/data/new_rtu_{}.xml".format(i)))
 
         #CSV Dateien laden
         for i in [0, 1]:
@@ -37,15 +37,15 @@ class Replay:
 
         # Cache erstellen
         for i in [0, 1]:
-            self.caches[i] = create_cache(self.configs[i])
+            self.caches.append(create_cache(self.configs[i]))
 
         # Datablock erstellen
         for i in [0, 1]:
-            self.datablocks[i] = create_datablock(self.configs[i])
+            self.datablocks.append(create_datablock(self.configs[i]))
 
         # Modbus Server erstellen
         for i in [0, 1]:
-            self.server[i] = create_server(self.configs[i], self.datablocks[i])
+            self.server.append(create_server(self.configs[i], self.datablocks[i]))
 
 
     def run_scenario(self):

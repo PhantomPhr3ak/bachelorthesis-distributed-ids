@@ -1,0 +1,25 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+class LM {
+    + config
+    - __rtu_config
+    - __neighborhood_monitors[]
+    + log
+    + violation_queue
+    + isRegistered
+    - __modbus_client
+
+
+    __init__(self, config)
+
+}
+
+enum TimeUnit {
+DAYS
+HOURS
+MINUTES
+}
+
+@enduml

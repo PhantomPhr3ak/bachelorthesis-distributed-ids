@@ -1,9 +1,7 @@
 import csv
 import time
 
-from ids.deployment.testbed.mosaikrtu.dvcd.data import DataBlock
-from ids.deployment.testbed.mosaikrtu.dvcd.server import Server
-from ids.deployment.testbed.mosaikrtu.rtu_model import create_server, create_cache, create_datablock, load_rtu
+from deployment.testbed.mosaikrtu.rtu_model import create_server, create_cache, create_datablock, load_rtu
 
 #TODO: translate comments into english
 
@@ -57,7 +55,7 @@ class Replay:
 
         # Modbus Server (synchron) im 2 Sekundentakt mit Daten aus CSV Datei aktualisieren
         y = 0
-        while y <= self.scenario_length:
+        while y < self.scenario_length:
             # update values
             for i in [0, 1]:
                 # set coils

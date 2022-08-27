@@ -26,7 +26,7 @@ class Replay:
         for i in [0, 1]:
             with open("replay_csv/data/scenario_{}_subgrid_{}.csv".format(x, i), "r") as csv_file:
                 csv_reader = csv.reader(csv_file, delimiter=";")
-                self.scenario[i] = []
+                self.scenario.append([])
 
                 # skip header row
                 csv_reader.__next__()

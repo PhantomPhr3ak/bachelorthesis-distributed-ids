@@ -2,8 +2,10 @@
 
 FROM python:3.7-slim-buster
 
-COPY deployment/testbed/mosaikrtu/ replay_csv/deployment/testbed/mosaikrtu/
-COPY deployment/testbed/data/config_files/ replay_csv/deployment/testbed/data/config_files/
+#COPY deployment/testbed/mosaikrtu/ replay_csv/deployment/testbed/mosaikrtu/
+COPY deployment/testbed/ replay_csv/deployment/testbed/
+
+#COPY deployment/testbed/data/config_files/ replay_csv/deployment/testbed/data/config_files/
 COPY replay_csv/ replay_csv/
 
 # Install dependencies

@@ -1,7 +1,7 @@
 import csv
 import time
 
-from deployment.testbed.mosaikrtu.rtu_model import create_server, create_cache, create_datablock, load_rtu
+from mosaikrtu.rtu_model import create_server, create_cache, create_datablock, load_rtu
 
 #TODO: translate comments into english
 
@@ -20,7 +20,7 @@ class Replay:
     def load_scenario(self, x):
         # Konfiguration des Testbeds aus XML lesen
         for i in [0, 1]:
-            self.configs[i] = load_rtu("../deployment/testbed/data/config_files/new_rtu_{}.xml".format(i))
+            self.configs[i] = load_rtu("data/new_rtu_{}.xml".format(i))
 
         #CSV Dateien laden
         for i in [0, 1]:
@@ -59,10 +59,10 @@ class Replay:
             # update values
             for i in [0, 1]:
                 # set coils
-                self.datablocks[i].set(_type="co", address="0", _datatype="bool", values=self.scenario[i][y][:self.amnt_switches])
+                self.datablocks[i].set(_type="co", address="0", _datatype="bool", values=self.scenario[i][y][:self.amnt_switches[i]])
 
                 #set holding registers
-                self.datablocks[i].set(_type="co", address="0", _datatype="64bit_float", values=self.scenario[i][y][self.amnt_switches:])
+                self.datablocks[i].set(_type="co", address="0", _datatype="64bit_float", values=self.scenario[i][y][self.amnt_switches[i]:])
 
             # wait 2 seconds
             time.sleep(2)

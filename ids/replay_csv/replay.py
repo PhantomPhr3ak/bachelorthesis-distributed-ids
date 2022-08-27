@@ -40,8 +40,8 @@ class Replay:
                     pass
 
         # Cache erstellen
-        for i in [0, 1]:
-            self.caches.append(create_cache(self.configs[i]))
+        #for i in [0, 1]:
+        #    self.caches.append(create_cache(self.configs[i]))
 
         # Datablock erstellen
         for i in [0, 1]:

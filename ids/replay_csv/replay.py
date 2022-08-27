@@ -32,8 +32,12 @@ class Replay:
                 csv_reader.__next__()
 
                 # Daten Zeile für Zeile auslesen
-                for j in range(self.scenario_length):
-                    self.scenario[i].append(csv_reader.__next__())
+                #for j in range(self.scenario_length):
+                try:
+                    while 1:
+                        self.scenario[i].append(csv_reader.__next__())
+                except StopIteration:
+                    pass
 
         # Cache erstellen
         for i in [0, 1]:

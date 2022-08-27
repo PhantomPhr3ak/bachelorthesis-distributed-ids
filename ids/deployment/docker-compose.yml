@@ -3,8 +3,8 @@ services:
 
   replay_csv:
     build:
-      context: ../replay_csv
-      dockerfile: ../replay_csv/Dockerfile
+      context: ../
+      dockerfile: replay_csv/Dockerfile
     container_name: replay_csv
     ports:
       - 10502:10502

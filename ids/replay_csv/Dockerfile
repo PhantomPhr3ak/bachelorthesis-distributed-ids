@@ -6,9 +6,9 @@ FROM python:3.7-slim-buster
 COPY requirements.txt requirements.txt
 RUN pip install -r requirements.txt
 
-COPY ../deployment/testbed/mosaikrtu/ ../deployment/testbed/mosaikrtu/
-COPY ../deployment/testbed/data/config_files/ ../deployment/testbed/data/config_files/
-COPY . ./
+COPY deployment/testbed/mosaikrtu/ deployment/testbed/mosaikrtu/
+COPY deployment/testbed/data/config_files/ deployment/testbed/data/config_files/
+COPY replay_csv/ replay_csv/
 
 EXPOSE 10502 10503
 ENTRYPOINT [ "python", "replay.py"]

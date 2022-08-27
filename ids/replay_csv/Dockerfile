@@ -8,6 +8,7 @@ RUN pip install -r requirements.txt
 
 COPY ../deployment/testbed/mosaikrtu/ ../deployment/testbed/mosaikrtu/
 COPY ../deployment/testbed/data/config_files/ ../deployment/testbed/data/config_files/
+COPY . .
 
 EXPOSE 10502 10503
 ENTRYPOINT [ "python", "replay.py"]

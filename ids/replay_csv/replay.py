@@ -20,11 +20,11 @@ class Replay:
     def load_scenario(self, x):
         # Konfiguration des Testbeds aus XML lesen
         for i in [0, 1]:
-            self.configs[i] = load_rtu("data/new_rtu_{}.xml".format(i))
+            self.configs[i] = load_rtu("replay_csv/data/new_rtu_{}.xml".format(i))
 
         #CSV Dateien laden
         for i in [0, 1]:
-            with open("data/scenario_{}_subgrid_{}.csv".format(x, i), "r") as csv_file:
+            with open("replay_csv/data/scenario_{}_subgrid_{}.csv".format(x, i), "r") as csv_file:
                 csv_reader = csv.reader(csv_file, delimiter=";")
                 self.scenario[i] = []
 

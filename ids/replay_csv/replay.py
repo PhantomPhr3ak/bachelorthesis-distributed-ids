@@ -1,8 +1,10 @@
 import csv
 import time
 import logging
+import logging.handlers
 
 logging.basicConfig(level=logging.DEBUG)
+logging.getLogger().addHandler(logging.StreamHandler())
 
 from mosaikrtu.rtu_model import create_server, create_cache, create_datablock, load_rtu
 

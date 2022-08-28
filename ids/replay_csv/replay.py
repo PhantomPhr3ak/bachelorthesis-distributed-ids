@@ -93,14 +93,14 @@ class Replay:
                 for value in self.scenario[i][y]:
                     print("value is {}".format(value))
 
-                    config_item = self.configs[i]['registers'].items()
+                    config_item = list(self.configs[i]['registers'].values())[index_register]
 
                     # set register
                     self.datablocks[i].set(
-                        config_item[index_register][0],
-                        config_item[index_register][1],
+                        config_item[0],
+                        config_item[1],
                         value,
-                        config_item[index_register][2],
+                        config_item[2],
                     )
                     index_register += 1
 

@@ -68,6 +68,7 @@ class Replay:
 
         # Modbus Server starten
         for i in [0, 1]:
+            self.server[i].start()
             self.server[i].run()
             print("Started server {}".format(i))
 

@@ -57,17 +57,36 @@ class Replay:
         for i in [0, 1]:
             self.server[i].run()
 
+        #debug prints
+        for a in range(3):
+            print("-----------------------------")
+        print('configs [%s]' % ', '.join(map(str, self.configs)))
+        for a in range(3):
+            print("-----------------------------")
+        print('datablocks [%s]' % ', '.join(map(str, self.datablocks)))
+        for a in range(3):
+            print("-----------------------------")
+
         # Modbus Server (synchron) im 2 Sekundentakt mit Daten aus CSV Datei aktualisieren
         y = 0
         while y < self.scenario_length:
             # update values
             for i in [0, 1]:
-                #for value in self.scenario[i][y]:
-                # set coils
-                self.datablocks[i].set(_type="co", address="0", _datatype="bool", values=self.scenario[i][y][:self.amnt_switches[i]])
+                index_register = 0
+                for value in self.scenario[i][y]:
+                    print("value is {}".format(value))
+                    # set coils
+                    self.datablocks[i].set(
+                        self.configs[i]['registers'][index_register][0],
+                        self.configs[i]['registers'][index_register][1],
+                        value,
+                        self.configs[i]['registers'][index_register][2],
+                    )
 
-                #set holding registers
-                self.datablocks[i].set(_type="hr", address="0", _datatype="64bit_float", values=self.scenario[i][y][self.amnt_switches[i]:])
+                    #set holding registers
+                    self.datablocks[i].set()
+
+                    index_register += 1
 
             # wait 2 seconds
             time.sleep(2)

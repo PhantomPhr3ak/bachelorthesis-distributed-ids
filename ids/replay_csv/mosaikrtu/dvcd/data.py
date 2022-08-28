@@ -9,6 +9,8 @@ from pymodbus3.datastore import ModbusSlaveContext
 from pymodbus3.payload import BinaryPayloadBuilder
 from pymodbus3.payload import BinaryPayloadDecoder
 from pymodbus3.constants import Endian
+from pymodbus3.utilities import unpack_bitstring
+
 
 import os
 

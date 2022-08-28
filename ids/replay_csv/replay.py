@@ -1,5 +1,8 @@
 import csv
 import time
+import logging
+
+logging.basicConfig(level=logging.DEBUG)
 
 from mosaikrtu.rtu_model import create_server, create_cache, create_datablock, load_rtu
 
@@ -18,6 +21,8 @@ class Replay:
         self.amnt_sensors = [12, 13]        #TODO: set automatically depending on config
 
     def load_scenario(self, x):
+        logging.info("Lade Szenario")
+
         # Konfiguration des Testbeds aus XML lesen
         for i in [0, 1]:
             self.configs.append(load_rtu("replay_csv/data/new_rtu_{}.xml".format(i)))
@@ -51,21 +56,25 @@ class Replay:
         for i in [0, 1]:
             self.server.append(create_server(self.configs[i], self.datablocks[i]))
 
+        logging.info("Server erstellt")
+
 
     def run_scenario(self):
+        logging.info("Szenario wird gestartet")
+
         # Modbus Server starten
         for i in [0, 1]:
             self.server[i].run()
 
         #debug prints
         for a in range(3):
-            print("-----------------------------")
-        print('configs [%s]' % ', '.join(map(str, self.configs)))
+            logging.info("-----------------------------")
+        logging.info('configs [%s]' % ', '.join(map(str, self.configs)))
         for a in range(3):
-            print("-----------------------------")
-        print('datablocks [%s]' % ', '.join(map(str, self.datablocks)))
+            logging.info("-----------------------------")
+        logging.info('datablocks [%s]' % ', '.join(map(str, self.datablocks)))
         for a in range(3):
-            print("-----------------------------")
+            logging.info("-----------------------------")
 
         # Modbus Server (synchron) im 2 Sekundentakt mit Daten aus CSV Datei aktualisieren
         y = 0
@@ -74,7 +83,7 @@ class Replay:
             for i in [0, 1]:
                 index_register = 0
                 for value in self.scenario[i][y]:
-                    print("value is {}".format(value))
+                    logging.info("value is {}".format(value))
                     # set coils
                     self.datablocks[i].set(
                         self.configs[i]['registers'][index_register][0],

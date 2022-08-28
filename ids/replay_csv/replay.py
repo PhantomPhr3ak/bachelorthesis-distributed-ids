@@ -3,8 +3,8 @@ import time
 import logging
 import logging.handlers
 
-logging.basicConfig(level=logging.DEBUG)
-logging.getLogger().addHandler(logging.StreamHandler())
+#logging.basicConfig(level=logging.DEBUG)
+#logging.getLogger().addHandler(logging.StreamHandler())
 
 from mosaikrtu.rtu_model import create_server, create_cache, create_datablock, load_rtu
 
@@ -23,7 +23,7 @@ class Replay:
         self.amnt_sensors = [12, 13]        #TODO: set automatically depending on config
 
     def load_scenario(self, x):
-        logging.info("Lade Szenario")
+        print("Lade Szenario")
 
         # Konfiguration des Testbeds aus XML lesen
         for i in [0, 1]:
@@ -40,11 +40,13 @@ class Replay:
 
                 # Daten Zeile für Zeile auslesen
                 #for j in range(self.scenario_length):
-                try:
-                    while 1:
-                        self.scenario[i].append(csv_reader.__next__())
-                except StopIteration:
-                    pass
+                for row in csv_reader:
+                    self.scenario[i].append(row)
+                #try:
+                #    while 1:
+                #        self.scenario[i].append(csv_reader.__next__())
+                #except StopIteration:
+                #    pass
 
         # Cache erstellen
         #for i in [0, 1]:
@@ -58,11 +60,11 @@ class Replay:
         for i in [0, 1]:
             self.server.append(create_server(self.configs[i], self.datablocks[i]))
 
-        logging.info("Server erstellt")
+        print("Server erstellt")
 
 
     def run_scenario(self):
-        logging.info("Szenario wird gestartet")
+        print("Szenario wird gestartet")
 
         # Modbus Server starten
         for i in [0, 1]:
@@ -70,33 +72,30 @@ class Replay:
 
         #debug prints
         for a in range(3):
-            logging.info("-----------------------------")
-        logging.info('configs [%s]' % ', '.join(map(str, self.configs)))
+            print("-----------------------------")
+        print('configs [%s]' % ', '.join(map(str, self.configs)))
         for a in range(3):
-            logging.info("-----------------------------")
+            print("-----------------------------")
         logging.info('datablocks [%s]' % ', '.join(map(str, self.datablocks)))
         for a in range(3):
-            logging.info("-----------------------------")
+            print("-----------------------------")
 
         # Modbus Server (synchron) im 2 Sekundentakt mit Daten aus CSV Datei aktualisieren
         y = 0
-        while y < self.scenario_length:
+        while y < len(self.scenario[0]):
+            print("Refreshing datasets")
             # update values
             for i in [0, 1]:
                 index_register = 0
                 for value in self.scenario[i][y]:
-                    logging.info("value is {}".format(value))
-                    # set coils
+                    print("value is {}".format(value))
+                    # set register
                     self.datablocks[i].set(
                         self.configs[i]['registers'][index_register][0],
                         self.configs[i]['registers'][index_register][1],
                         value,
                         self.configs[i]['registers'][index_register][2],
                     )
-
-                    #set holding registers
-                    self.datablocks[i].set()
-
                     index_register += 1
 
             # wait 2 seconds
@@ -107,9 +106,13 @@ class Replay:
 
         time.sleep(5)
 
+        print("No more data available, stopping server")
+
         # Server wieder anhalten
         for i in [0, 1]:
             self.server[i].stop()
+
+        print("Servers stopped")
 
 if __name__ == '__main__':
     replay = Replay()

@@ -62,17 +62,20 @@ class Replay:
         while y < self.scenario_length:
             # update values
             for i in [0, 1]:
+                #for value in self.scenario[i][y]:
                 # set coils
                 self.datablocks[i].set(_type="co", address="0", _datatype="bool", values=self.scenario[i][y][:self.amnt_switches[i]])
 
                 #set holding registers
-                self.datablocks[i].set(_type="co", address="0", _datatype="64bit_float", values=self.scenario[i][y][self.amnt_switches[i]:])
+                self.datablocks[i].set(_type="hr", address="0", _datatype="64bit_float", values=self.scenario[i][y][self.amnt_switches[i]:])
 
             # wait 2 seconds
             time.sleep(2)
 
             # increase number
             y += 1
+
+        time.sleep(5)
 
         # Server wieder anhalten
         for i in [0, 1]:

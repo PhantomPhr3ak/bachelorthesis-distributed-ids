@@ -1,5 +1,6 @@
 import csv
 import time
+import pprint
 import logging
 import logging.handlers
 
@@ -78,7 +79,7 @@ class Replay:
         print('configs [%s]' % ', '.join(map(str, self.configs)))
         for a in range(3):
             print("-----------------------------")
-        logging.info('datablocks [%s]' % ', '.join(map(str, self.datablocks)))
+        print('datablocks [%s]' % ', '.join(map(str, self.datablocks)))
         for a in range(3):
             print("-----------------------------")
 
@@ -93,10 +94,10 @@ class Replay:
                     print("value is {}".format(value))
                     # set register
                     self.datablocks[i].set(
-                        self.configs[i]['registers'][index_register][0],
-                        self.configs[i]['registers'][index_register][1],
+                        self.configs[i]['registers'].items()[index_register][0],
+                        self.configs[i]['registers'].items()[index_register][1],
                         value,
-                        self.configs[i]['registers'][index_register][2],
+                        self.configs[i]['registers'].items()[index_register][2],
                     )
                     index_register += 1
 

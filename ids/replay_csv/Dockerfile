@@ -2,6 +2,8 @@
 
 FROM python:3.7-slim-buster
 
+RUN echo "[global] \n extra-index-url=https://www.piwheels.org/simple" >> /etc/pip.conf
+
 #COPY deployment/testbed/mosaikrtu/ replay_csv/deployment/testbed/mosaikrtu/
 #COPY deployment/testbed/ replay_csv/deployment/testbed/
 

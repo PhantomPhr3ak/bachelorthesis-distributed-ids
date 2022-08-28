@@ -92,12 +92,15 @@ class Replay:
                 index_register = 0
                 for value in self.scenario[i][y]:
                     print("value is {}".format(value))
+
+                    config_item = self.configs[i]['registers'].items()
+
                     # set register
                     self.datablocks[i].set(
-                        self.configs[i]['registers'].items()[index_register][0],
-                        self.configs[i]['registers'].items()[index_register][1],
+                        config_item[index_register][0],
+                        config_item[index_register][1],
                         value,
-                        self.configs[i]['registers'].items()[index_register][2],
+                        config_item[index_register][2],
                     )
                     index_register += 1
 

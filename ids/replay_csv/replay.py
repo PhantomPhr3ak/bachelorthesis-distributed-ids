@@ -75,13 +75,13 @@ class Replay:
 
         #debug prints
         for a in range(3):
-            print("-----------------------------")
+            print("----------------------------- \n")
         print('configs [%s]' % ', '.join(map(str, self.configs)))
         for a in range(3):
-            print("-----------------------------")
-        print('datablocks [%s]' % ', '.join(map(str, self.datablocks)))
+            print("----------------------------- \n")
+        print('scenario [%s]' % ', '.join(map(str, self.scenario)))
         for a in range(3):
-            print("-----------------------------")
+            print("----------------------------- \n")
 
         # Modbus Server (synchron) im 2 Sekundentakt mit Daten aus CSV Datei aktualisieren
         y = 0

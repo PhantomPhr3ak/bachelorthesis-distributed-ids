@@ -125,6 +125,10 @@ class Replay:
         print("Servers stopped")
 
 if __name__ == '__main__':
-    replay = Replay()
-    replay.load_scenario(1)
-    replay.run_scenario()
+    for i in [1,2,3,4]:
+        print("starting scenario {}".format(i))
+        replay = Replay()
+        replay.load_scenario(i)
+        replay.run_scenario()
+        print("finished scenario {}".format(i))
+        time.sleep(10)

@@ -1,4 +1,5 @@
 import asyncio
+import logging
 
 
 class ReqCheckerLocal:
@@ -67,9 +68,9 @@ class ReqCheckerLocal:
                 )
 
                 # Report to console
-                # logger.error("Requirement 1 violated! Sum of incoming current at bus %s is %s, "
-                #             "and sum of outgoing current is %s", bus["id"], round(sum_current_in, 2),
-                #             round(sum_current_out, 2))
+                logger.error("Requirement 1 violated! Sum of incoming current at bus %s is %s, "
+                            "and sum of outgoing current is %s", bus["id"], round(sum_current_in, 2),
+                            round(sum_current_out, 2))
 
     async def _check_req_2(self):
         """Checks Requirement 2: All voltages reported at one bus are equal."""

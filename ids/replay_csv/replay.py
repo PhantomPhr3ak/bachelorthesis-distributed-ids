@@ -91,22 +91,22 @@ class Replay:
             for i in [0, 1]:
                 index_register = 0
                 for value in self.scenario[i][y]:
-                    print("value is {}".format(value))
+                    if value != "":
+                        print("value is {}".format(value))
 
-                    config_item = list(self.configs[i]['registers'].values())[index_register]
+                        config_item = list(self.configs[i]['registers'].values())[index_register]
 
-                    if config_item[2] == "64bit_float":
-                        if value != "":
+                        if config_item[2] == "64bit_float":
                             value = float(value)
 
-                    # set register
-                    self.datablocks[i].set(
-                        config_item[0],
-                        config_item[1],
-                        value,
-                        config_item[2],
-                    )
-                    index_register += 1
+                        # set register
+                        self.datablocks[i].set(
+                            config_item[0],
+                            config_item[1],
+                            value,
+                            config_item[2],
+                        )
+                        index_register += 1
 
             # wait 2 seconds
             time.sleep(2)

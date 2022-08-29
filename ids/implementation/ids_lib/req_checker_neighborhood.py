@@ -97,8 +97,8 @@ class ReqCheckerNeighborhood:
                             "component_id": m["power_line_id"]}
                         )
 
-                        # self.__logger.error("Requirement 3 (neighborhood) violated! There is current on line %s with "
-                        #              "an open switch", m["power_line_id"])
+                        self.__logger.error("Requirement 3 (neighborhood) violated! There is current on line %s with "
+                                     "an open switch", m["power_line_id"])
 
     async def _check_req_4(self, lm_address):
         """Checks requirement 4: Measured voltage and current remain the same over the length of a power line."""
@@ -143,9 +143,9 @@ class ReqCheckerNeighborhood:
                             "component_id": power_line["id"]}
                         )
 
-                        # self.__logger.error("Requirement 4 (neighborhood) violated! Current on line %s measured by %s "
-                        #                     ": %s (!= %s)",
-                        #                     power_line["id"], d.id, round(d.current, 2), ref_current)
+                        self.__logger.error("Requirement 4 (neighborhood) violated! Current on line %s measured by %s "
+                                            ": %s (!= %s)",
+                                            power_line["id"], d.id, round(d.current, 2), ref_current)
                     if not (ref_voltage - 0.05 <= round(d.voltage, 2) <= ref_voltage + 0.05):
                         # Add violation to queue
                         self.__vio_queue.put_nowait({
@@ -153,9 +153,9 @@ class ReqCheckerNeighborhood:
                             "component_id": power_line["id"]}
                         )
 
-                        # self.__logger.error("Requirement 4 (neighborhood) violated! Voltage on line %s measured by %s "
-                        #                     ": %s (!= %s)",
-                        #                     power_line["id"], d.id, round(d.voltage, 2), ref_voltage)
+                        self.__logger.error("Requirement 4 (neighborhood) violated! Voltage on line %s measured by %s "
+                                            ": %s (!= %s)",
+                                            power_line["id"], d.id, round(d.voltage, 2), ref_voltage)
 
     async def get_data_from_lm(self, lm_address):
         """Get the latest data values from the specified local monitor."""

@@ -4,10 +4,11 @@ import logging
 
 class ReqCheckerLocal:
 
-    def __init__(self, rtu_config, data_ref, violations_queue):
+    def __init__(self, rtu_config, data_ref, violations_queue, logger):
         self.__rtu_conf = rtu_config
         self.__data_ref = data_ref
         self.__vio_queue = violations_queue
+        self.logger = logger
 
     async def check_requirements(self):
         """Check all requirements of the local scope"""

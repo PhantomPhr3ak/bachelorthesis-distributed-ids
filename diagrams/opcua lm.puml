@@ -1,0 +1,107 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+participant "LM Server" as server order 0
+participant LM1 order 1
+participant "C2 Client" as Client order 2
+participant C2 order 3
+
+activate LM1
+
+== Initialization of LMs OPC-UA Server ==
+
+LM1 -> server ** : create
+LM1 -> server : add user certificates
+activate server
+server --> LM1
+deactivate server
+LM1 -> server : configure network settings
+activate server
+server --> LM1
+deactivate server
+LM1 -> server : register namespace
+activate server
+server --> LM1
+deactivate server
+LM1 -> server : create data structure\n for RTU data
+activate server
+server --> LM1
+deactivate server
+LM1 -> server : create data structure\n for Usage data
+activate server
+server --> LM1
+deactivate server
+LM1 -> server : create UA method\n for registering NMs
+activate server
+server --> LM1
+deactivate server
+LM1 -> server : create custom event\n type for req violations
+activate server
+server --> LM1
+deactivate server
+LM1 -> server : create custom event\n type for general logging
+activate server
+server --> LM1
+deactivate server
+LM1 -> server : create custom event\n type for heartbeat
+activate server
+server --> LM1
+deactivate server
+LM1 -> server : start server
+activate server
+'LM1 -> server :
+
+
+== Connection to C2 ==
+activate C2
+LM1 -> LM1 : register to C2
+activate LM1
+LM1 -> Client **: create
+'activate Client
+'deactivate Client
+
+LM1 -> Client : set security
+activate Client
+Client --> LM1
+deactivate Client
+
+LM1 -> Client : connect
+activate Client
+Client -> C2 : opc-ua handshake
+activate C2
+C2 --> Client
+deactivate C2
+Client --> LM1
+deactivate Client
+
+
+LM1 -> Client : load namespace and datatypes
+activate Client
+Client -> C2 : get namespace and datatypes
+activate C2
+C2 --> Client : namespace and datatypes
+deactivate C2
+Client --> LM1
+deactivate Client
+
+LM1 -> Client : register
+activate Client
+Client -> C2 : call UA-method register LM
+C2 -> C2 : save LM
+C2 -> C2 : schedule reconfiguration
+C2 --> Client
+Client --> LM1
+deactivate Client
+
+LM1 -> Client : "subscribe to C2 events"
+activate Client
+Client -> C2 : "subscribe to events"
+C2 --> Client
+Client --> LM1
+deactivate Client
+
+deactivate LM1
+
+
+@enduml

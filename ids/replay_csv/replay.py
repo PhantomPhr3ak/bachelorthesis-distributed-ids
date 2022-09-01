@@ -111,7 +111,7 @@ class Replay:
             # wait 2 seconds
             time.sleep(2)
 
-            # increase number
+            # increase "time" aka csv row index
             y += 1
 
         time.sleep(5)

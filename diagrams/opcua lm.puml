@@ -11,6 +11,8 @@ activate LM1
 
 == Initialization of LMs OPC-UA Server ==
 
+LM1 -> LM1 : Setup and Start OPC Server
+activate LM1
 LM1 -> server ** : create
 LM1 -> server : add user certificates
 activate server
@@ -51,7 +53,7 @@ deactivate server
 LM1 -> server : start server
 activate server
 'LM1 -> server :
-
+deactivate LM1
 
 == Connection to C2 ==
 activate C2

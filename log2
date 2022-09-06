@@ -1,0 +1,194 @@
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [INFO]: 2022-09-06 21:35:56.020971 - Connected to Modbus Server 'testbed:10503'
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [INFO]: 2022-09-06 21:35:56.020830 - Connected to Modbus Server 'testbed:10502'
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:36:40.819421 - Modbus Error: [Input/Output] Server responded with bad response
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:36:41.666230 - Modbus Error: [Input/Output] Server responded with bad response
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:36:41.868315 - Modbus Error: [Connection] Failed to connect[testbed:10502]
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:36:42.723629 - Modbus Error: [Connection] Failed to connect[testbed:10503]
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:36:42.924564 - Modbus Error: [Connection] Failed to connect[testbed:10502]
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:36:43.775152 - Modbus Error: [Connection] Failed to connect[testbed:10503]
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:36:43.974372 - Modbus Error: [Connection] Failed to connect[testbed:10502]
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:36:44.827895 - Modbus Error: [Connection] Failed to connect[testbed:10503]
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:36:45.889466 - Modbus Error: [Connection] Failed to connect[testbed:10503]
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:36:45.022700 - Modbus Error: [Connection] Failed to connect[testbed:10502]
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:36:46.066188 - Modbus Error: [Connection] Failed to connect[testbed:10502]
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:36:46.936361 - Modbus Error: [Connection] Failed to connect[testbed:10503]
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:36:47.131991 - Modbus Error: [Connection] Failed to connect[testbed:10502]
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:36:47.982292 - Modbus Error: [Connection] Failed to connect[testbed:10503]
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:36:48.172726 - Modbus Error: [Connection] Failed to connect[testbed:10502]
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:36:49.053650 - Modbus Error: [Connection] Failed to connect[testbed:10503]
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:36:49.222711 - Modbus Error: [Connection] Failed to connect[testbed:10502]
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:36:50.101179 - Modbus Error: [Connection] Failed to connect[testbed:10503]
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:36:50.267593 - Modbus Error: [Connection] Failed to connect[testbed:10502]
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:36:51.142627 - Modbus Error: [Connection] Failed to connect[testbed:10503]
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:36:51.321659 - Modbus Error: [Connection] Failed to connect[testbed:10502]
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [INFO]: 2022-09-06 21:36:52.178908 - Connected to Modbus Server 'testbed:10503'
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [INFO]: 2022-09-06 21:36:52.356584 - Connected to Modbus Server 'testbed:10502'
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:37:10.443178 - Requirement 1 violated! Sum of incoming current at bus b22 is 0.02, and sum of outgoing current is 1.03. calculation: in + 0.018116760844004737  =  1.0341966117642476 +  out
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:37:10.445238 - Requirement 4 (local) violated! Current on line branch_30 measured by sensor_21 : 0.03 (!= 1.03)
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:37:10.447186 - Requirement 7 violated! Max current in sensor_20 should be < 0.2 but is currently 1.034
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:37:11.613631 - Requirement 1 violated! Sum of incoming current at bus b22 is 0.02, and sum of outgoing current is 1.03. calculation: in + 0.018116760844004737  =  1.0341966117642476 +  out
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:37:11.616996 - Requirement 4 (local) violated! Current on line branch_30 measured by sensor_21 : 0.03 (!= 1.03)
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:37:11.620482 - Requirement 7 violated! Max current in sensor_20 should be < 0.2 but is currently 1.034
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:37:14.924104 - Requirement 4 (local) violated! Current on line branch_33 measured by sensor_6 : 0.23 (!= 0.03)
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:37:14.927105 - Requirement 7 violated! Max current in sensor_6 should be < 0.2 but is currently 0.233
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:37:16.063651 - Requirement 4 (local) violated! Current on line branch_33 measured by sensor_6 : 0.23 (!= 0.03)
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:37:16.067126 - Requirement 7 violated! Max current in sensor_6 should be < 0.2 but is currently 0.233
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:37:18.359406 - Requirement 2 violated! Voltage on bus b25 measured by sensor_8 : 10500.39 (!= 10499.39)
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:37:18.363348 - Requirement 4 (local) violated! Voltage on line branch_32 measured by sensor_9 : 10499.38 (!= 10500.39)
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:37:18.367294 - Requirement 8 violated! Max voltage in sensor_8 should be < 10500.0 but is currently 10500.394
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:37:19.557439 - Requirement 2 violated! Voltage on bus b25 measured by sensor_8 : 10500.39 (!= 10499.39)
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:37:19.561049 - Requirement 4 (local) violated! Voltage on line branch_32 measured by sensor_9 : 10499.38 (!= 10500.39)
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:37:19.564417 - Requirement 8 violated! Max voltage in sensor_8 should be < 10500.0 but is currently 10500.394
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:37:23.142724 - Requirement 2 violated! Voltage on bus b19 measured by sensor_17 : 10500.38 (!= 10499.38)
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:37:23.146628 - Requirement 4 (local) violated! Voltage on line branch_38 measured by sensor_22 : 10499.38 (!= 10500.38)
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:37:23.150669 - Requirement 8 violated! Max voltage in sensor_17 should be < 10500.0 but is currently 10500.376
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:37:24.355124 - Requirement 2 violated! Voltage on bus b19 measured by sensor_17 : 10500.38 (!= 10499.38)
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:37:24.358241 - Requirement 4 (local) violated! Voltage on line branch_38 measured by sensor_22 : 10499.42 (!= 10500.38)
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:37:24.361338 - Requirement 8 violated! Max voltage in sensor_17 should be < 10500.0 but is currently 10500.376
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:37:38.461574 - Modbus Error: [Input/Output] Server responded with bad response
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:37:37.987199 - Modbus Error: [Input/Output] Server responded with bad response
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:37:39.508039 - Modbus Error: [Connection] Failed to connect[testbed:10503]
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:37:39.032247 - Modbus Error: [Connection] Failed to connect[testbed:10502]
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:37:40.560800 - Modbus Error: [Connection] Failed to connect[testbed:10503]
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:37:40.074530 - Modbus Error: [Connection] Failed to connect[testbed:10502]
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:37:41.608278 - Modbus Error: [Connection] Failed to connect[testbed:10503]
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:37:41.118295 - Modbus Error: [Connection] Failed to connect[testbed:10502]
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:37:42.655408 - Modbus Error: [Connection] Failed to connect[testbed:10503]
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:37:42.160378 - Modbus Error: [Connection] Failed to connect[testbed:10502]
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:37:43.698342 - Modbus Error: [Connection] Failed to connect[testbed:10503]
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:37:43.206096 - Modbus Error: [Connection] Failed to connect[testbed:10502]
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:37:44.747729 - Modbus Error: [Connection] Failed to connect[testbed:10503]
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:37:44.258509 - Modbus Error: [Connection] Failed to connect[testbed:10502]
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:37:45.801847 - Modbus Error: [Connection] Failed to connect[testbed:10503]
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:37:45.311242 - Modbus Error: [Connection] Failed to connect[testbed:10502]
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:37:46.851503 - Modbus Error: [Connection] Failed to connect[testbed:10503]
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:37:46.372077 - Modbus Error: [Connection] Failed to connect[testbed:10502]
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [INFO]: 2022-09-06 21:37:47.883471 - Connected to Modbus Server 'testbed:10503'
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:37:47.423465 - Modbus Error: [Connection] Failed to connect[testbed:10502]
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [INFO]: 2022-09-06 21:37:48.456626 - Connected to Modbus Server 'testbed:10502'
+mosaik_ids_c2      | [NM nm0077bc-56da-4156-a931-3acbcde9b9d3] [ERROR]: 2022-09-06 21:37:50.871679 - Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_14 : 10499.58 (!= 10499.48)
+mosaik_ids_c2      | [NM nm0077bc-56da-4156-a931-3acbcde9b9d3] [ERROR]: 2022-09-06 21:37:50.873936 - Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_12 : 10499.58 (!= 10499.48)
+mosaik_ids_c2      | [NM nm0077bc-56da-4156-a931-3acbcde9b9d3] [ERROR]: 2022-09-06 21:37:50.876076 - Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_14 : 10499.58 (!= 10499.48)
+mosaik_ids_c2      | [NM nm0077bc-56da-4156-a931-3acbcde9b9d3] [ERROR]: 2022-09-06 21:37:50.878231 - Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_12 : 10499.58 (!= 10499.48)
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:37:50.782968 - Requirement 2 violated! Voltage on bus b19 measured by sensor_14 : 10499.58 (!= 10499.48)
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:37:50.786208 - Requirement 2 violated! Voltage on bus b19 measured by sensor_16 : 10499.58 (!= 10499.48)
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:37:50.789471 - Requirement 2 violated! Voltage on bus b19 measured by sensor_17 : 10499.58 (!= 10499.48)
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:37:50.792759 - Requirement 4 (local) violated! Voltage on line branch_40 measured by sensor_14 : 10499.58 (!= 10499.48)
+mosaik_ids_c2      | [NM nm008f50-5d9a-4039-97ae-8f470afeb001] [ERROR]: 2022-09-06 21:37:50.913516 - Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_14 : 10499.58 (!= 10499.48)
+mosaik_ids_c2      | [NM nm008f50-5d9a-4039-97ae-8f470afeb001] [ERROR]: 2022-09-06 21:37:50.916535 - Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_12 : 10499.58 (!= 10499.48)
+mosaik_ids_c2      | [NM nm008f50-5d9a-4039-97ae-8f470afeb001] [ERROR]: 2022-09-06 21:37:50.919517 - Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_14 : 10499.58 (!= 10499.48)
+mosaik_ids_c2      | [NM nm008f50-5d9a-4039-97ae-8f470afeb001] [ERROR]: 2022-09-06 21:37:50.922413 - Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_12 : 10499.58 (!= 10499.48)
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:37:51.973005 - Requirement 2 violated! Voltage on bus b19 measured by sensor_14 : 10499.58 (!= 10499.48)
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:37:51.975081 - Requirement 2 violated! Voltage on bus b19 measured by sensor_16 : 10499.58 (!= 10499.48)
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:37:51.977217 - Requirement 2 violated! Voltage on bus b19 measured by sensor_17 : 10499.58 (!= 10499.48)
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:37:51.979401 - Requirement 4 (local) violated! Voltage on line branch_40 measured by sensor_14 : 10499.58 (!= 10499.48)
+mosaik_ids_c2      | [NM nm008f50-5d9a-4039-97ae-8f470afeb001] [ERROR]: 2022-09-06 21:37:52.036536 - Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_14 : 10499.58 (!= 10499.48)
+mosaik_ids_c2      | [NM nm008f50-5d9a-4039-97ae-8f470afeb001] [ERROR]: 2022-09-06 21:37:52.040493 - Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_12 : 10499.58 (!= 10499.48)
+mosaik_ids_c2      | [NM nm0077bc-56da-4156-a931-3acbcde9b9d3] [ERROR]: 2022-09-06 21:37:52.049306 - Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_14 : 10499.58 (!= 10499.48)
+mosaik_ids_c2      | [NM nm0077bc-56da-4156-a931-3acbcde9b9d3] [ERROR]: 2022-09-06 21:37:52.051350 - Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_12 : 10499.58 (!= 10499.48)
+mosaik_ids_c2      | [NM nm0077bc-56da-4156-a931-3acbcde9b9d3] [ERROR]: 2022-09-06 21:37:52.053394 - Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_14 : 10499.58 (!= 10499.48)
+mosaik_ids_c2      | [NM nm0077bc-56da-4156-a931-3acbcde9b9d3] [ERROR]: 2022-09-06 21:37:52.055562 - Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_12 : 10499.58 (!= 10499.48)
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:37:54.744185 - Requirement 2 violated! Voltage on bus b24 measured by sensor_10 : 10499.48 (!= 10499.58)
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:37:55.875997 - Requirement 2 violated! Voltage on bus b24 measured by sensor_10 : 10499.48 (!= 10499.58)
+mosaik_ids_c2      | [NM nm0077bc-56da-4156-a931-3acbcde9b9d3] [ERROR]: 2022-09-06 21:37:55.549824 - Requirement 4 (neighborhood) violated! Voltage on line branch_39 measured by sensor_10 : 10499.48 (!= 10499.58)
+mosaik_ids_c2      | [NM nm008f50-5d9a-4039-97ae-8f470afeb001] [ERROR]: 2022-09-06 21:37:55.630859 - Requirement 4 (neighborhood) violated! Voltage on line branch_39 measured by sensor_10 : 10499.48 (!= 10499.58)
+mosaik_ids_c2      | [NM nm008f50-5d9a-4039-97ae-8f470afeb001] [ERROR]: 2022-09-06 21:37:55.632881 - Requirement 4 (neighborhood) violated! Voltage on line branch_39 measured by sensor_10 : 10499.48 (!= 10499.58)
+mosaik_ids_c2      | [NM nm008f50-5d9a-4039-97ae-8f470afeb001] [ERROR]: 2022-09-06 21:37:55.634791 - Requirement 4 (neighborhood) violated! Voltage on line branch_39 measured by sensor_10 : 10499.48 (!= 10499.58)
+mosaik_ids_c2      | [NM nm0077bc-56da-4156-a931-3acbcde9b9d3] [ERROR]: 2022-09-06 21:37:56.751257 - Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_12 : 10499.58 (!= 10499.47)
+mosaik_ids_c2      | [NM nm0077bc-56da-4156-a931-3acbcde9b9d3] [ERROR]: 2022-09-06 21:37:56.753259 - Requirement 4 (neighborhood) violated! Voltage on line branch_31 measured by sensor_11 : 10499.58 (!= 10499.47)
+mosaik_ids_c2      | [NM nm0077bc-56da-4156-a931-3acbcde9b9d3] [ERROR]: 2022-09-06 21:37:56.755181 - Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_12 : 10499.58 (!= 10499.47)
+mosaik_ids_c2      | [NM nm0077bc-56da-4156-a931-3acbcde9b9d3] [ERROR]: 2022-09-06 21:37:56.757095 - Requirement 4 (neighborhood) violated! Voltage on line branch_31 measured by sensor_11 : 10499.58 (!= 10499.47)
+mosaik_ids_c2      | [NM nm008f50-5d9a-4039-97ae-8f470afeb001] [ERROR]: 2022-09-06 21:37:56.809050 - Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_12 : 10499.58 (!= 10499.47)
+mosaik_ids_c2      | [NM nm008f50-5d9a-4039-97ae-8f470afeb001] [ERROR]: 2022-09-06 21:37:56.811003 - Requirement 4 (neighborhood) violated! Voltage on line branch_31 measured by sensor_11 : 10499.58 (!= 10499.47)
+mosaik_ids_c2      | [NM nm008f50-5d9a-4039-97ae-8f470afeb001] [ERROR]: 2022-09-06 21:37:56.812941 - Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_12 : 10499.58 (!= 10499.47)
+mosaik_ids_c2      | [NM nm008f50-5d9a-4039-97ae-8f470afeb001] [ERROR]: 2022-09-06 21:37:56.814879 - Requirement 4 (neighborhood) violated! Voltage on line branch_31 measured by sensor_11 : 10499.58 (!= 10499.47)
+mosaik_ids_c2      | [NM nm008f50-5d9a-4039-97ae-8f470afeb001] [ERROR]: 2022-09-06 21:37:56.816786 - Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_12 : 10499.58 (!= 10499.47)
+mosaik_ids_c2      | [NM nm008f50-5d9a-4039-97ae-8f470afeb001] [ERROR]: 2022-09-06 21:37:56.819285 - Requirement 4 (neighborhood) violated! Voltage on line branch_31 measured by sensor_11 : 10499.58 (!= 10499.47)
+mosaik_ids_c2      | [NM nm0077bc-56da-4156-a931-3acbcde9b9d3] [ERROR]: 2022-09-06 21:38:04.945989 - Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_12 : 10499.47 (!= 10499.35)
+mosaik_ids_c2      | [NM nm0077bc-56da-4156-a931-3acbcde9b9d3] [ERROR]: 2022-09-06 21:38:04.948131 - Requirement 4 (neighborhood) violated! Voltage on line branch_31 measured by sensor_11 : 10499.47 (!= 10499.35)
+mosaik_ids_c2      | [NM nm0077bc-56da-4156-a931-3acbcde9b9d3] [ERROR]: 2022-09-06 21:38:04.950761 - Requirement 4 (neighborhood) violated! Voltage on line branch_39 measured by sensor_10 : 10499.47 (!= 10499.35)
+mosaik_ids_c2      | [NM nm0077bc-56da-4156-a931-3acbcde9b9d3] [ERROR]: 2022-09-06 21:38:04.952759 - Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_12 : 10499.47 (!= 10499.35)
+mosaik_ids_c2      | [NM nm0077bc-56da-4156-a931-3acbcde9b9d3] [ERROR]: 2022-09-06 21:38:04.954680 - Requirement 4 (neighborhood) violated! Voltage on line branch_31 measured by sensor_11 : 10499.47 (!= 10499.35)
+mosaik_ids_c2      | [NM nm0077bc-56da-4156-a931-3acbcde9b9d3] [ERROR]: 2022-09-06 21:38:04.956599 - Requirement 4 (neighborhood) violated! Voltage on line branch_39 measured by sensor_10 : 10499.47 (!= 10499.35)
+mosaik_ids_c2      | [NM nm008f50-5d9a-4039-97ae-8f470afeb001] [ERROR]: 2022-09-06 21:38:04.973263 - Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_12 : 10499.47 (!= 10499.35)
+mosaik_ids_c2      | [NM nm008f50-5d9a-4039-97ae-8f470afeb001] [ERROR]: 2022-09-06 21:38:04.975342 - Requirement 4 (neighborhood) violated! Voltage on line branch_31 measured by sensor_11 : 10499.47 (!= 10499.35)
+mosaik_ids_c2      | [NM nm008f50-5d9a-4039-97ae-8f470afeb001] [ERROR]: 2022-09-06 21:38:04.977492 - Requirement 4 (neighborhood) violated! Voltage on line branch_39 measured by sensor_10 : 10499.47 (!= 10499.35)
+mosaik_ids_c2      | [NM nm008f50-5d9a-4039-97ae-8f470afeb001] [ERROR]: 2022-09-06 21:38:04.979597 - Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_12 : 10499.47 (!= 10499.35)
+mosaik_ids_c2      | [NM nm008f50-5d9a-4039-97ae-8f470afeb001] [ERROR]: 2022-09-06 21:38:04.981683 - Requirement 4 (neighborhood) violated! Voltage on line branch_31 measured by sensor_11 : 10499.47 (!= 10499.35)
+mosaik_ids_c2      | [NM nm008f50-5d9a-4039-97ae-8f470afeb001] [ERROR]: 2022-09-06 21:38:04.983722 - Requirement 4 (neighborhood) violated! Voltage on line branch_39 measured by sensor_10 : 10499.47 (!= 10499.35)
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:38:34.082566 - Modbus Error: [Input/Output] Server responded with bad response
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:38:34.920792 - Modbus Error: [Input/Output] Server responded with bad response
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:38:35.114823 - Modbus Error: [Connection] Failed to connect[testbed:10502]
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:38:35.975177 - Modbus Error: [Connection] Failed to connect[testbed:10503]
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:38:36.162607 - Modbus Error: [Connection] Failed to connect[testbed:10502]
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:38:37.022886 - Modbus Error: [Connection] Failed to connect[testbed:10503]
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:38:37.208890 - Modbus Error: [Connection] Failed to connect[testbed:10502]
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:38:38.077199 - Modbus Error: [Connection] Failed to connect[testbed:10503]
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:38:38.254503 - Modbus Error: [Connection] Failed to connect[testbed:10502]
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:38:39.139169 - Modbus Error: [Connection] Failed to connect[testbed:10503]
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:38:39.300241 - Modbus Error: [Connection] Failed to connect[testbed:10502]
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:38:40.185561 - Modbus Error: [Connection] Failed to connect[testbed:10503]
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:38:40.357746 - Modbus Error: [Connection] Failed to connect[testbed:10502]
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:38:41.233122 - Modbus Error: [Connection] Failed to connect[testbed:10503]
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:38:41.404992 - Modbus Error: [Connection] Failed to connect[testbed:10502]
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:38:42.283236 - Modbus Error: [Connection] Failed to connect[testbed:10503]
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:38:42.451351 - Modbus Error: [Connection] Failed to connect[testbed:10502]
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:38:43.333374 - Modbus Error: [Connection] Failed to connect[testbed:10503]
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:38:43.496903 - Modbus Error: [Connection] Failed to connect[testbed:10502]
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:38:44.384138 - Modbus Error: [Connection] Failed to connect[testbed:10503]
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:38:44.546653 - Modbus Error: [Connection] Failed to connect[testbed:10502]
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [INFO]: 2022-09-06 21:38:45.418373 - Connected to Modbus Server 'testbed:10503'
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [INFO]: 2022-09-06 21:38:45.586498 - Connected to Modbus Server 'testbed:10502'
+mosaik_ids_c2      | [NM nm0077bc-56da-4156-a931-3acbcde9b9d3] [ERROR]: 2022-09-06 21:38:53.764275 - Requirement 4 (neighborhood) violated! Voltage on line branch_31 measured by sensor_11 : 10499.47 (!= 10499.57)
+mosaik_ids_c2      | [NM nm0077bc-56da-4156-a931-3acbcde9b9d3] [ERROR]: 2022-09-06 21:38:53.766336 - Requirement 4 (neighborhood) violated! Voltage on line branch_39 measured by sensor_10 : 10499.47 (!= 10499.57)
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:38:53.606306 - Requirement 4 (local) violated! Voltage on line branch_38 measured by sensor_22 : 10499.57 (!= 10499.47)
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:38:53.609737 - Requirement 4 (local) violated! Voltage on line branch_30 measured by sensor_21 : 10499.57 (!= 10499.47)
+mosaik_ids_c2      | [NM nm008f50-5d9a-4039-97ae-8f470afeb001] [ERROR]: 2022-09-06 21:38:53.886227 - Requirement 4 (neighborhood) violated! Voltage on line branch_31 measured by sensor_11 : 10499.47 (!= 10499.57)
+mosaik_ids_c2      | [NM nm008f50-5d9a-4039-97ae-8f470afeb001] [ERROR]: 2022-09-06 21:38:53.889247 - Requirement 4 (neighborhood) violated! Voltage on line branch_39 measured by sensor_10 : 10499.47 (!= 10499.57)
+mosaik_ids_c2      | [NM nm008f50-5d9a-4039-97ae-8f470afeb001] [ERROR]: 2022-09-06 21:38:53.892132 - Requirement 4 (neighborhood) violated! Voltage on line branch_31 measured by sensor_11 : 10499.47 (!= 10499.57)
+mosaik_ids_c2      | [NM nm008f50-5d9a-4039-97ae-8f470afeb001] [ERROR]: 2022-09-06 21:38:53.895001 - Requirement 4 (neighborhood) violated! Voltage on line branch_39 measured by sensor_10 : 10499.47 (!= 10499.57)
+mosaik_ids_c2      | [NM nm0077bc-56da-4156-a931-3acbcde9b9d3] [ERROR]: 2022-09-06 21:38:54.895252 - Requirement 4 (neighborhood) violated! Voltage on line branch_31 measured by sensor_11 : 10499.47 (!= 10499.57)
+mosaik_ids_c2      | [NM nm0077bc-56da-4156-a931-3acbcde9b9d3] [ERROR]: 2022-09-06 21:38:54.897838 - Requirement 4 (neighborhood) violated! Voltage on line branch_39 measured by sensor_10 : 10499.47 (!= 10499.57)
+mosaik_ids_c2      | [NM nm0077bc-56da-4156-a931-3acbcde9b9d3] [ERROR]: 2022-09-06 21:38:54.900495 - Requirement 4 (neighborhood) violated! Voltage on line branch_31 measured by sensor_11 : 10499.47 (!= 10499.57)
+mosaik_ids_c2      | [NM nm0077bc-56da-4156-a931-3acbcde9b9d3] [ERROR]: 2022-09-06 21:38:54.903134 - Requirement 4 (neighborhood) violated! Voltage on line branch_39 measured by sensor_10 : 10499.47 (!= 10499.57)
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:38:54.769561 - Requirement 4 (local) violated! Voltage on line branch_38 measured by sensor_22 : 10499.57 (!= 10499.47)
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:38:54.773083 - Requirement 4 (local) violated! Voltage on line branch_30 measured by sensor_21 : 10499.57 (!= 10499.47)
+mosaik_ids_c2      | [NM nm008f50-5d9a-4039-97ae-8f470afeb001] [ERROR]: 2022-09-06 21:38:55.022487 - Requirement 4 (neighborhood) violated! Voltage on line branch_31 measured by sensor_11 : 10499.47 (!= 10499.57)
+mosaik_ids_c2      | [NM nm008f50-5d9a-4039-97ae-8f470afeb001] [ERROR]: 2022-09-06 21:38:55.024477 - Requirement 4 (neighborhood) violated! Voltage on line branch_39 measured by sensor_10 : 10499.47 (!= 10499.57)
+mosaik_ids_c2      | [NM nm008f50-5d9a-4039-97ae-8f470afeb001] [ERROR]: 2022-09-06 21:38:55.026383 - Requirement 4 (neighborhood) violated! Voltage on line branch_31 measured by sensor_11 : 10499.47 (!= 10499.57)
+mosaik_ids_c2      | [NM nm008f50-5d9a-4039-97ae-8f470afeb001] [ERROR]: 2022-09-06 21:38:55.028362 - Requirement 4 (neighborhood) violated! Voltage on line branch_39 measured by sensor_10 : 10499.47 (!= 10499.57)
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:39:30.655538 - Modbus Error: [Input/Output] Server responded with bad response
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:39:31.696191 - Modbus Error: [Connection] Failed to connect[testbed:10503]
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:39:31.030856 - Modbus Error: [Input/Output] Server responded with bad response
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:39:32.745715 - Modbus Error: [Connection] Failed to connect[testbed:10503]
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:39:32.084579 - Modbus Error: [Connection] Failed to connect[testbed:10502]
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:39:33.799012 - Modbus Error: [Connection] Failed to connect[testbed:10503]
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:39:33.133374 - Modbus Error: [Connection] Failed to connect[testbed:10502]
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:39:34.851751 - Modbus Error: [Connection] Failed to connect[testbed:10503]
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:39:34.187078 - Modbus Error: [Connection] Failed to connect[testbed:10502]
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:39:35.896246 - Modbus Error: [Connection] Failed to connect[testbed:10503]
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:39:35.241836 - Modbus Error: [Connection] Failed to connect[testbed:10502]
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:39:36.303797 - Modbus Error: [Connection] Failed to connect[testbed:10502]
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:39:37.022528 - Modbus Error: [Connection] Failed to connect[testbed:10503]
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:39:37.353066 - Modbus Error: [Connection] Failed to connect[testbed:10502]
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:39:38.062173 - Modbus Error: [Connection] Failed to connect[testbed:10503]
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:39:38.401908 - Modbus Error: [Connection] Failed to connect[testbed:10502]
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:39:39.112216 - Modbus Error: [Connection] Failed to connect[testbed:10503]
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:39:39.453845 - Modbus Error: [Connection] Failed to connect[testbed:10502]
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:39:40.170999 - Modbus Error: [Connection] Failed to connect[testbed:10503]
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:39:40.500921 - Modbus Error: [Connection] Failed to connect[testbed:10502]
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:39:41.216388 - Modbus Error: [Connection] Failed to connect[testbed:10503]
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:39:41.549263 - Modbus Error: [Connection] Failed to connect[testbed:10502]
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:39:42.268548 - Modbus Error: [Connection] Failed to connect[testbed:10503]
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:39:42.595886 - Modbus Error: [Connection] Failed to connect[testbed:10502]
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:39:43.313721 - Modbus Error: [Connection] Failed to connect[testbed:10503]
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:39:43.646914 - Modbus Error: [Connection] Failed to connect[testbed:10502]
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:39:44.363253 - Modbus Error: [Connection] Failed to connect[testbed:10503]
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:39:44.694596 - Modbus Error: [Connection] Failed to connect[testbed:10502]
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:39:45.442639 - Modbus Error: [Connection] Failed to connect[testbed:10503]
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:39:45.735221 - Modbus Error: [Connection] Failed to connect[testbed:10502]
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:39:46.488323 - Modbus Error: [Connection] Failed to connect[testbed:10503]
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:39:46.783352 - Modbus Error: [Connection] Failed to connect[testbed:10502]
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:39:47.541772 - Modbus Error: [Connection] Failed to connect[testbed:10503]
+mosaik_ids_c2      | [LM lm006310-bf94-4124-82fd-167230f93b7d] [ERROR]: 2022-09-06 21:39:47.830581 - Modbus Error: [Connection] Failed to connect[testbed:10502]
+mosaik_ids_c2      | [LM lm00ade6-064d-4351-bce8-d8737885c06a] [ERROR]: 2022-09-06 21:39:48.590133 - Modbus Error: [Connection] Failed to connect[testbed:10503]

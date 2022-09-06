@@ -1,0 +1,280 @@
+
+
+Szenario 1
+
+
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [INFO]: 2022-09-06 10:24:50.740114 - Connected to Modbus Server 'testbed:10503'
+mosaik_ids_c2      | [LM lm008a60-0444-4506-a0f7-3f3bd63a06da] [INFO]: 2022-09-06 10:24:50.730681 - Connected to Modbus Server 'testbed:10502'
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:24:58.922728 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.2
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:25:00.077585 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.2
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:25:01.245606 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.2
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:25:02.446820 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.2
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:25:03.607713 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.2
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:25:04.776847 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.2
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:25:05.949714 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.2
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:25:07.137469 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:25:08.334990 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:25:09.504257 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:25:10.705998 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:25:11.911305 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:25:13.097963 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:25:14.281330 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:25:15.442013 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:25:16.630272 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:25:17.799991 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:25:18.949182 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:25:20.102970 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:25:21.267955 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:25:22.582103 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:25:23.761827 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:25:25.313796 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:25:26.476461 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:25:27.663376 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:25:28.845103 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:25:30.008952 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:25:31.170429 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:25:32.336220 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:25:33.493354 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:25:34.674414 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+
+
+
+
+
+
+
+
+----------------------------
+
+
+
+Szenario 2
+
+
+
+
+
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [INFO]: 2022-09-06 10:25:47.320495 - Connected to Modbus Server 'testbed:10503'
+mosaik_ids_c2      | [LM lm008a60-0444-4506-a0f7-3f3bd63a06da] [INFO]: 2022-09-06 10:25:47.308371 - Connected to Modbus Server 'testbed:10502'
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:25:55.251583 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.2
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:25:56.382060 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.2
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:25:57.515175 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.2
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:25:58.696579 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.2
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:25:59.845874 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.2
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:26:01.001216 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.2
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:26:02.161186 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.2
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:26:03.331901 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:26:04.478324 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:26:05.676432 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm008a60-0444-4506-a0f7-3f3bd63a06da] [ERROR]: 2022-09-06 10:26:05.529909 - Requirement 1 violated! Sum of incoming current at bus b22 is 0.02, and sum of outgoing current is 1.03
+mosaik_ids_c2      | [LM lm008a60-0444-4506-a0f7-3f3bd63a06da] [ERROR]: 2022-09-06 10:26:05.533619 - Requirement 4 (local) violated! Current on line branch_30 measured by sensor_21 : 0.03 (!= 1.03)
+mosaik_ids_c2      | [LM lm008a60-0444-4506-a0f7-3f3bd63a06da] [ERROR]: 2022-09-06 10:26:05.537011 - Requirement 7 violated! Max current in sensor_20 should be < 0.2 but is currently 1.034
+mosaik_ids_c2      | [LM lm008a60-0444-4506-a0f7-3f3bd63a06da] [ERROR]: 2022-09-06 10:26:06.694782 - Requirement 1 violated! Sum of incoming current at bus b22 is 0.02, and sum of outgoing current is 1.03
+mosaik_ids_c2      | [LM lm008a60-0444-4506-a0f7-3f3bd63a06da] [ERROR]: 2022-09-06 10:26:06.697447 - Requirement 4 (local) violated! Current on line branch_30 measured by sensor_21 : 0.03 (!= 1.03)
+mosaik_ids_c2      | [LM lm008a60-0444-4506-a0f7-3f3bd63a06da] [ERROR]: 2022-09-06 10:26:06.700053 - Requirement 7 violated! Max current in sensor_20 should be < 0.2 but is currently 1.034
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:26:06.888760 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:26:08.067797 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:26:09.327712 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:26:09.329676 - Requirement 1 violated! Sum of incoming current at bus b25 is 0.08, and sum of outgoing current is 0.23
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:26:09.331687 - Requirement 4 (local) violated! Current on line branch_33 measured by sensor_6 : 0.23 (!= 0.03)
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:26:09.333709 - Requirement 7 violated! Max current in sensor_6 should be < 0.2 but is currently 0.233
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:26:10.538981 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:26:10.542247 - Requirement 1 violated! Sum of incoming current at bus b25 is 0.08, and sum of outgoing current is 0.23
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:26:10.545634 - Requirement 4 (local) violated! Current on line branch_33 measured by sensor_6 : 0.23 (!= 0.03)
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:26:10.548893 - Requirement 7 violated! Max current in sensor_6 should be < 0.2 but is currently 0.233
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:26:11.829952 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:26:13.059053 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:26:13.061411 - Requirement 2 violated! Voltage on bus b25 measured by sensor_8 : 10500.39 (!= 10499.37)
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:26:13.063439 - Requirement 4 (local) violated! Voltage on line branch_32 measured by sensor_9 : 10499.38 (!= 10500.39)
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:26:13.065425 - Requirement 8 violated! Max voltage in sensor_8 should be < 10500.0 but is currently 10500.394
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:26:14.280130 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:26:14.283472 - Requirement 2 violated! Voltage on bus b25 measured by sensor_8 : 10500.39 (!= 10499.39)
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:26:14.286490 - Requirement 4 (local) violated! Voltage on line branch_32 measured by sensor_9 : 10499.38 (!= 10500.39)
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:26:14.290386 - Requirement 8 violated! Max voltage in sensor_8 should be < 10500.0 but is currently 10500.394
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:26:15.518062 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:26:16.734990 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:26:17.919802 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm008a60-0444-4506-a0f7-3f3bd63a06da] [ERROR]: 2022-09-06 10:26:18.098182 - Requirement 2 violated! Voltage on bus b19 measured by sensor_17 : 10500.38 (!= 10499.38)
+mosaik_ids_c2      | [LM lm008a60-0444-4506-a0f7-3f3bd63a06da] [ERROR]: 2022-09-06 10:26:18.100253 - Requirement 4 (local) violated! Voltage on line branch_38 measured by sensor_22 : 10499.38 (!= 10500.38)
+mosaik_ids_c2      | [LM lm008a60-0444-4506-a0f7-3f3bd63a06da] [ERROR]: 2022-09-06 10:26:18.102211 - Requirement 8 violated! Max voltage in sensor_17 should be < 10500.0 but is currently 10500.376
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:26:19.109453 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:26:20.389352 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:26:21.971926 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:26:23.133803 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:26:24.461348 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:26:25.615200 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:26:26.771451 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:26:27.932771 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:26:29.096410 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:26:30.257535 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:26:31.441960 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------------
+
+
+
+Szenario 3
+
+
+
+
+
+
+
+
+
+mosaik_ids_c2      | [LM lm008a60-0444-4506-a0f7-3f3bd63a06da] [ERROR]: 2022-09-06 10:26:43.011604 - Error connecting to Modbus Server'testbed:10502'
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [INFO]: 2022-09-06 10:26:44.030768 - Connected to Modbus Server 'testbed:10503'
+mosaik_ids_c2      | [LM lm008a60-0444-4506-a0f7-3f3bd63a06da] [INFO]: 2022-09-06 10:26:44.039699 - Connected to Modbus Server 'testbed:10502'
+mosaik_ids_c2      | [LM lm008a60-0444-4506-a0f7-3f3bd63a06da] [ERROR]: 2022-09-06 10:26:45.211455 - Requirement 2 violated! Voltage on bus b19 measured by sensor_14 : 10499.58 (!= 10499.48)
+mosaik_ids_c2      | [LM lm008a60-0444-4506-a0f7-3f3bd63a06da] [ERROR]: 2022-09-06 10:26:45.215038 - Requirement 2 violated! Voltage on bus b19 measured by sensor_16 : 10499.58 (!= 10499.48)
+mosaik_ids_c2      | [LM lm008a60-0444-4506-a0f7-3f3bd63a06da] [ERROR]: 2022-09-06 10:26:45.218049 - Requirement 2 violated! Voltage on bus b19 measured by sensor_17 : 10499.58 (!= 10499.48)
+mosaik_ids_c2      | [LM lm008a60-0444-4506-a0f7-3f3bd63a06da] [ERROR]: 2022-09-06 10:26:45.221020 - Requirement 4 (local) violated! Voltage on line branch_40 measured by sensor_14 : 10499.58 (!= 10499.48)
+mosaik_ids_c2      | [NM nm00eb63-0866-49dc-af71-ec418d5d844f] [ERROR]: 2022-09-06 10:26:45.772683 - Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_14 : 10499.58 (!= 10499.48)
+mosaik_ids_c2      | [NM nm00eb63-0866-49dc-af71-ec418d5d844f] [ERROR]: 2022-09-06 10:26:45.774946 - Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_12 : 10499.58 (!= 10499.48)
+mosaik_ids_c2      | [NM nm00eb63-0866-49dc-af71-ec418d5d844f] [ERROR]: 2022-09-06 10:26:45.776945 - Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_14 : 10499.58 (!= 10499.48)
+mosaik_ids_c2      | [NM nm00eb63-0866-49dc-af71-ec418d5d844f] [ERROR]: 2022-09-06 10:26:45.778868 - Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_12 : 10499.58 (!= 10499.48)
+mosaik_ids_c2      | [NM nm00f37c-6e6b-41a5-b2a1-3ebcb1edef31] [ERROR]: 2022-09-06 10:26:45.753333 - Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_14 : 10499.58 (!= 10499.48)
+mosaik_ids_c2      | [NM nm00f37c-6e6b-41a5-b2a1-3ebcb1edef31] [ERROR]: 2022-09-06 10:26:45.756901 - Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_12 : 10499.58 (!= 10499.48)
+mosaik_ids_c2      | [LM lm008a60-0444-4506-a0f7-3f3bd63a06da] [ERROR]: 2022-09-06 10:26:46.392500 - Requirement 2 violated! Voltage on bus b19 measured by sensor_14 : 10499.58 (!= 10499.48)
+mosaik_ids_c2      | [LM lm008a60-0444-4506-a0f7-3f3bd63a06da] [ERROR]: 2022-09-06 10:26:46.395222 - Requirement 2 violated! Voltage on bus b19 measured by sensor_16 : 10499.58 (!= 10499.48)
+mosaik_ids_c2      | [LM lm008a60-0444-4506-a0f7-3f3bd63a06da] [ERROR]: 2022-09-06 10:26:46.397830 - Requirement 2 violated! Voltage on bus b19 measured by sensor_17 : 10499.58 (!= 10499.48)
+mosaik_ids_c2      | [LM lm008a60-0444-4506-a0f7-3f3bd63a06da] [ERROR]: 2022-09-06 10:26:46.400413 - Requirement 4 (local) violated! Voltage on line branch_40 measured by sensor_14 : 10499.58 (!= 10499.48)
+mosaik_ids_c2      | [NM nm00eb63-0866-49dc-af71-ec418d5d844f] [ERROR]: 2022-09-06 10:26:46.853583 - Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_14 : 10499.58 (!= 10499.48)
+mosaik_ids_c2      | [NM nm00eb63-0866-49dc-af71-ec418d5d844f] [ERROR]: 2022-09-06 10:26:46.855845 - Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_12 : 10499.58 (!= 10499.48)
+mosaik_ids_c2      | [NM nm00f37c-6e6b-41a5-b2a1-3ebcb1edef31] [ERROR]: 2022-09-06 10:26:46.922275 - Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_14 : 10499.58 (!= 10499.48)
+mosaik_ids_c2      | [NM nm00f37c-6e6b-41a5-b2a1-3ebcb1edef31] [ERROR]: 2022-09-06 10:26:46.924279 - Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_12 : 10499.58 (!= 10499.48)
+mosaik_ids_c2      | [NM nm00f37c-6e6b-41a5-b2a1-3ebcb1edef31] [ERROR]: 2022-09-06 10:26:46.926298 - Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_14 : 10499.58 (!= 10499.48)
+mosaik_ids_c2      | [NM nm00f37c-6e6b-41a5-b2a1-3ebcb1edef31] [ERROR]: 2022-09-06 10:26:46.928229 - Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_12 : 10499.58 (!= 10499.48)
+mosaik_ids_c2      | [NM nm00f37c-6e6b-41a5-b2a1-3ebcb1edef31] [ERROR]: 2022-09-06 10:26:46.930145 - Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_14 : 10499.58 (!= 10499.48)
+mosaik_ids_c2      | [NM nm00f37c-6e6b-41a5-b2a1-3ebcb1edef31] [ERROR]: 2022-09-06 10:26:46.932057 - Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_12 : 10499.58 (!= 10499.48)
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:26:49.714339 - Requirement 2 violated! Voltage on bus b24 measured by sensor_10 : 10499.48 (!= 10499.58)
+mosaik_ids_c2      | [NM nm00f37c-6e6b-41a5-b2a1-3ebcb1edef31] [ERROR]: 2022-09-06 10:26:50.228215 - Requirement 4 (neighborhood) violated! Voltage on line branch_39 measured by sensor_10 : 10499.48 (!= 10499.58)
+mosaik_ids_c2      | [NM nm00f37c-6e6b-41a5-b2a1-3ebcb1edef31] [ERROR]: 2022-09-06 10:26:50.230260 - Requirement 4 (neighborhood) violated! Voltage on line branch_39 measured by sensor_10 : 10499.48 (!= 10499.58)
+mosaik_ids_c2      | [NM nm00eb63-0866-49dc-af71-ec418d5d844f] [ERROR]: 2022-09-06 10:26:50.206085 - Requirement 4 (neighborhood) violated! Voltage on line branch_39 measured by sensor_10 : 10499.48 (!= 10499.58)
+mosaik_ids_c2      | [NM nm00eb63-0866-49dc-af71-ec418d5d844f] [ERROR]: 2022-09-06 10:26:50.209677 - Requirement 4 (neighborhood) violated! Voltage on line branch_39 measured by sensor_10 : 10499.48 (!= 10499.58)
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:26:50.958809 - Requirement 2 violated! Voltage on bus b24 measured by sensor_10 : 10499.48 (!= 10499.58)
+mosaik_ids_c2      | [NM nm00eb63-0866-49dc-af71-ec418d5d844f] [ERROR]: 2022-09-06 10:26:51.417979 - Requirement 4 (neighborhood) violated! Voltage on line branch_39 measured by sensor_10 : 10499.48 (!= 10499.58)
+mosaik_ids_c2      | [NM nm00eb63-0866-49dc-af71-ec418d5d844f] [ERROR]: 2022-09-06 10:26:51.419983 - Requirement 4 (neighborhood) violated! Voltage on line branch_39 measured by sensor_10 : 10499.48 (!= 10499.58)
+mosaik_ids_c2      | [NM nm00eb63-0866-49dc-af71-ec418d5d844f] [ERROR]: 2022-09-06 10:26:51.421930 - Requirement 4 (neighborhood) violated! Voltage on line branch_39 measured by sensor_10 : 10499.48 (!= 10499.58)
+mosaik_ids_c2      | [NM nm00eb63-0866-49dc-af71-ec418d5d844f] [ERROR]: 2022-09-06 10:26:51.423924 - Requirement 4 (neighborhood) violated! Voltage on line branch_39 measured by sensor_10 : 10499.48 (!= 10499.58)
+mosaik_ids_c2      | [NM nm00f37c-6e6b-41a5-b2a1-3ebcb1edef31] [ERROR]: 2022-09-06 10:26:51.323455 - Requirement 4 (neighborhood) violated! Voltage on line branch_39 measured by sensor_10 : 10499.48 (!= 10499.58)
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:26:52.115128 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.2
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:26:53.301834 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.2
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:26:54.561425 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.2
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:26:55.747315 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.2
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:26:56.927306 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.2
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:26:58.097113 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.2
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:26:59.273623 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.2
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:27:00.436628 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:27:01.596324 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:27:02.767907 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:27:03.940582 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:27:05.099981 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:27:06.277995 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:27:07.460958 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:27:08.634838 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:27:09.791854 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:27:11.016677 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:27:12.170595 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:27:13.347891 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:27:14.501236 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:27:15.690616 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:27:16.851268 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:27:18.008260 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:27:19.168391 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:27:20.337855 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:27:21.499639 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:27:22.632224 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:27:23.794758 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:27:25.180191 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:27:26.311807 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:27:27.438359 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:27:28.592856 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+
+Szenario 4
+
+
+
+
+
+mosaik_ids_c2      | [LM lm008a60-0444-4506-a0f7-3f3bd63a06da] [INFO]: 2022-09-06 10:27:40.450398 - Connected to Modbus Server 'testbed:10502'
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:27:48.153833 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.2
+mosaik_ids_c2      | [LM lm008a60-0444-4506-a0f7-3f3bd63a06da] [ERROR]: 2022-09-06 10:27:48.296208 - Requirement 4 (local) violated! Voltage on line branch_38 measured by sensor_22 : 10499.57 (!= 10499.47)
+mosaik_ids_c2      | [LM lm008a60-0444-4506-a0f7-3f3bd63a06da] [ERROR]: 2022-09-06 10:27:48.298651 - Requirement 4 (local) violated! Voltage on line branch_30 measured by sensor_21 : 10499.57 (!= 10499.47)
+mosaik_ids_c2      | [NM nm00f37c-6e6b-41a5-b2a1-3ebcb1edef31] [ERROR]: 2022-09-06 10:27:49.089049 - Requirement 4 (neighborhood) violated! Voltage on line branch_31 measured by sensor_11 : 10499.47 (!= 10499.57)
+mosaik_ids_c2      | [NM nm00f37c-6e6b-41a5-b2a1-3ebcb1edef31] [ERROR]: 2022-09-06 10:27:49.091068 - Requirement 4 (neighborhood) violated! Voltage on line branch_39 measured by sensor_10 : 10499.47 (!= 10499.57)
+mosaik_ids_c2      | [NM nm00f37c-6e6b-41a5-b2a1-3ebcb1edef31] [ERROR]: 2022-09-06 10:27:49.093008 - Requirement 4 (neighborhood) violated! Voltage on line branch_31 measured by sensor_11 : 10499.47 (!= 10499.57)
+mosaik_ids_c2      | [NM nm00f37c-6e6b-41a5-b2a1-3ebcb1edef31] [ERROR]: 2022-09-06 10:27:49.094938 - Requirement 4 (neighborhood) violated! Voltage on line branch_39 measured by sensor_10 : 10499.47 (!= 10499.57)
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:27:49.282847 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.2
+mosaik_ids_c2      | [LM lm008a60-0444-4506-a0f7-3f3bd63a06da] [ERROR]: 2022-09-06 10:27:49.427556 - Requirement 4 (local) violated! Voltage on line branch_38 measured by sensor_22 : 10499.57 (!= 10499.47)
+mosaik_ids_c2      | [LM lm008a60-0444-4506-a0f7-3f3bd63a06da] [ERROR]: 2022-09-06 10:27:49.429535 - Requirement 4 (local) violated! Voltage on line branch_30 measured by sensor_21 : 10499.57 (!= 10499.47)
+mosaik_ids_c2      | [NM nm00eb63-0866-49dc-af71-ec418d5d844f] [ERROR]: 2022-09-06 10:27:49.073602 - Requirement 4 (neighborhood) violated! Voltage on line branch_31 measured by sensor_11 : 10499.47 (!= 10499.57)
+mosaik_ids_c2      | [NM nm00eb63-0866-49dc-af71-ec418d5d844f] [ERROR]: 2022-09-06 10:27:49.075876 - Requirement 4 (neighborhood) violated! Voltage on line branch_39 measured by sensor_10 : 10499.47 (!= 10499.57)
+mosaik_ids_c2      | [NM nm00eb63-0866-49dc-af71-ec418d5d844f] [ERROR]: 2022-09-06 10:27:49.077830 - Requirement 4 (neighborhood) violated! Voltage on line branch_31 measured by sensor_11 : 10499.47 (!= 10499.57)
+mosaik_ids_c2      | [NM nm00eb63-0866-49dc-af71-ec418d5d844f] [ERROR]: 2022-09-06 10:27:49.079744 - Requirement 4 (neighborhood) violated! Voltage on line branch_39 measured by sensor_10 : 10499.47 (!= 10499.57)
+mosaik_ids_c2      | [NM nm00f37c-6e6b-41a5-b2a1-3ebcb1edef31] [ERROR]: 2022-09-06 10:27:50.229380 - Requirement 4 (neighborhood) violated! Voltage on line branch_31 measured by sensor_11 : 10499.47 (!= 10499.57)
+mosaik_ids_c2      | [NM nm00f37c-6e6b-41a5-b2a1-3ebcb1edef31] [ERROR]: 2022-09-06 10:27:50.231350 - Requirement 4 (neighborhood) violated! Voltage on line branch_39 measured by sensor_10 : 10499.47 (!= 10499.57)
+mosaik_ids_c2      | [NM nm00f37c-6e6b-41a5-b2a1-3ebcb1edef31] [ERROR]: 2022-09-06 10:27:50.233283 - Requirement 4 (neighborhood) violated! Voltage on line branch_31 measured by sensor_11 : 10499.47 (!= 10499.57)
+mosaik_ids_c2      | [NM nm00f37c-6e6b-41a5-b2a1-3ebcb1edef31] [ERROR]: 2022-09-06 10:27:50.235242 - Requirement 4 (neighborhood) violated! Voltage on line branch_39 measured by sensor_10 : 10499.47 (!= 10499.57)
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:27:50.413039 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.2
+mosaik_ids_c2      | [NM nm00eb63-0866-49dc-af71-ec418d5d844f] [ERROR]: 2022-09-06 10:27:50.160182 - Requirement 4 (neighborhood) violated! Voltage on line branch_31 measured by sensor_11 : 10499.47 (!= 10499.57)
+mosaik_ids_c2      | [NM nm00eb63-0866-49dc-af71-ec418d5d844f] [ERROR]: 2022-09-06 10:27:50.164164 - Requirement 4 (neighborhood) violated! Voltage on line branch_39 measured by sensor_10 : 10499.47 (!= 10499.57)
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:27:51.535209 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.2
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:27:52.662449 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.2
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:27:53.793556 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.2
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:27:54.921175 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.2
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:27:56.089305 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.2
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:27:56.091271 - Requirement 2 violated! Voltage on bus b25 measured by sensor_8 : 10499.37 (!= 10499.48)
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:27:57.232991 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:27:58.368283 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:27:59.508415 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:28:00.673759 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:28:01.802433 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:28:02.931335 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:28:04.128599 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:28:05.257463 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:28:06.381847 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:28:07.517484 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:28:08.674518 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:28:09.836934 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:28:10.983427 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:28:12.133312 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:28:13.288212 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:28:14.463866 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:28:15.611030 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:28:16.755302 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:28:17.910348 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:28:19.096362 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:28:20.270364 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:28:21.443556 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:28:22.710215 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:28:23.901229 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22
+mosaik_ids_c2      | [LM lm00337e-7ba9-4f95-b8b4-d8cecb11055b] [ERROR]: 2022-09-06 10:28:25.427453 - Requirement 1 violated! Sum of incoming current at bus b27 is 0.06, and sum of outgoing current is 0.22

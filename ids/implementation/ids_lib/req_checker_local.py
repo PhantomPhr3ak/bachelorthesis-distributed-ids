@@ -57,9 +57,11 @@ class ReqCheckerLocal:
 
             for m in self.__rtu_conf["meters"]:
                 if m["power_line_id"] in power_lines_in_ids:
+                    power_lines_in_ids.remove(m["power_line_id"]) # Only one meter per branch shall be checked
                     d = get_meter_data(data, m)
                     readings_in.append(d)
                 elif m["power_line_id"] in power_lines_out_ids:
+                    power_lines_out_ids.remove(m["power_line_id"]) # Only one meter per branch shall be checked
                     d = get_meter_data(data, m)
                     readings_out.append(d)
 

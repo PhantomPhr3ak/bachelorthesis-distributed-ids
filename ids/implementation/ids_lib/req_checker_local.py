@@ -104,6 +104,8 @@ class ReqCheckerLocal:
             # Get the voltage readings from each meter on this bus
             voltage_readings = []
             for m in self.__rtu_conf["meters"]:
+                #TODO: using the bus id of a meter might be unrealistic as all meters on a powerline
+                # do also need to measure the same voltage
                 if m["bus_id"] == bus["id"]:
                     voltage_readings.append(get_meter_data(data, m))
 

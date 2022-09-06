@@ -47,11 +47,19 @@ class ReqCheckerLocal:
             # Get current for incoming and outgoing power lines
             readings_in = []
             readings_out = []
+            # for m in self.__rtu_conf["meters"]:
+            #     if m["power_line_id"] in power_lines_in_ids and m["bus_id"] == bus["id"]:
+            #         d = get_meter_data(data, m)
+            #         readings_in.append(d)
+            #     elif m["power_line_id"] in power_lines_out_ids and m["bus_id"] == bus["id"]:
+            #         d = get_meter_data(data, m)
+            #         readings_out.append(d)
+
             for m in self.__rtu_conf["meters"]:
-                if m["power_line_id"] in power_lines_in_ids and m["bus_id"] == bus["id"]:
+                if m["power_line_id"] in power_lines_in_ids:
                     d = get_meter_data(data, m)
                     readings_in.append(d)
-                elif m["power_line_id"] in power_lines_out_ids and m["bus_id"] == bus["id"]:
+                elif m["power_line_id"] in power_lines_out_ids:
                     d = get_meter_data(data, m)
                     readings_out.append(d)
 

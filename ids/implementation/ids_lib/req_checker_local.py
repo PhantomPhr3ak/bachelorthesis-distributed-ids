@@ -58,10 +58,20 @@ class ReqCheckerLocal:
             # Calculate sum for incoming and outcoming current
             sum_current_in = 0
             sum_current_out = 0
+
+            calc = "calculation: in "
+
             for d in readings_in:
                 sum_current_in += d.current
+                calc += "+ {}".format(d.current)
+
+            calc += "  =  "
+
             for d in readings_out:
                 sum_current_out += d.current
+                calc += "{} + ".format(d.current)
+
+            calc += " out"
 
             # Check if sums are equal
             if abs(round(sum_current_in, 2) - round(sum_current_out, 2)) > 0.1:
@@ -73,7 +83,7 @@ class ReqCheckerLocal:
 
                 # Report to console
                 self.logger.error("Requirement 1 violated! Sum of incoming current at bus %s is %s, "
-                            "and sum of outgoing current is %s", bus["id"], round(sum_current_in, 2),
+                            "and sum of outgoing current is %s. " + calc, bus["id"], round(sum_current_in, 2),
                             round(sum_current_out, 2))
 
     async def _check_req_2(self):

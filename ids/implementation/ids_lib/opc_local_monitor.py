@@ -186,7 +186,7 @@ class LM:
 
         # Set up requirement checker
         global req_checker
-        req_checker = ReqCheckerLocal(self.__rtu_conf, self.opc_lm_data_ref, self.violation_queue)
+        req_checker = ReqCheckerLocal(self.__rtu_conf, self.opc_lm_data_ref, self.violation_queue, logger)
 
         # heartbeat event to check if component is still alive and connected to c2 server
         # should not print anything in the console, only if not available (error message)

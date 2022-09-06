@@ -75,13 +75,13 @@ class Replay:
 
         #debug prints
         for a in range(3):
-            print("-----------------------------")
+            print("----------------------------- \n")
         print('configs [%s]' % ', '.join(map(str, self.configs)))
         for a in range(3):
-            print("-----------------------------")
-        print('datablocks [%s]' % ', '.join(map(str, self.datablocks)))
+            print("----------------------------- \n")
+        print('scenario [%s]' % ', '.join(map(str, self.scenario)))
         for a in range(3):
-            print("-----------------------------")
+            print("----------------------------- \n")
 
         # Modbus Server (synchron) im 2 Sekundentakt mit Daten aus CSV Datei aktualisieren
         y = 0
@@ -91,23 +91,27 @@ class Replay:
             for i in [0, 1]:
                 index_register = 0
                 for value in self.scenario[i][y]:
-                    print("value is {}".format(value))
+                    if value != "":
+                        print("value is {}".format(value))
 
-                    config_item = list(self.configs[i]['registers'].values())[index_register]
+                        config_item = list(self.configs[i]['registers'].values())[index_register]
 
-                    # set register
-                    self.datablocks[i].set(
-                        config_item[0],
-                        config_item[1],
-                        value,
-                        config_item[2],
-                    )
-                    index_register += 1
+                        if config_item[2] == "64bit_float":
+                            value = float(value)
+
+                        # set register
+                        self.datablocks[i].set(
+                            config_item[0],
+                            config_item[1],
+                            value,
+                            config_item[2],
+                        )
+                        index_register += 1
 
             # wait 2 seconds
             time.sleep(2)
 
-            # increase number
+            # increase "time" aka csv row index
             y += 1
 
         time.sleep(5)
@@ -121,6 +125,10 @@ class Replay:
         print("Servers stopped")
 
 if __name__ == '__main__':
-    replay = Replay()
-    replay.load_scenario(1)
-    replay.run_scenario()
+    for i in [1,2,3,4]:
+        print("starting scenario {}".format(i))
+        replay = Replay()
+        replay.load_scenario(i)
+        replay.run_scenario()
+        print("finished scenario {}".format(i))
+        time.sleep(10)

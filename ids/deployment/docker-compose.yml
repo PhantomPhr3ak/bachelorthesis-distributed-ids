@@ -10,7 +10,6 @@ services:
       - 10502:10502
       - 10503:10503
 
-
   testbed:
     build:
       context: testbed

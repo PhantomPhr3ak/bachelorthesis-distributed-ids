@@ -1,12 +1,14 @@
 import asyncio
+import logging
 
 
 class ReqCheckerLocal:
 
-    def __init__(self, rtu_config, data_ref, violations_queue):
+    def __init__(self, rtu_config, data_ref, violations_queue, logger):
         self.__rtu_conf = rtu_config
         self.__data_ref = data_ref
         self.__vio_queue = violations_queue
+        self.logger = logger
 
     async def check_requirements(self):
         """Check all requirements of the local scope"""
@@ -67,9 +69,9 @@ class ReqCheckerLocal:
                 )
 
                 # Report to console
-                # logger.error("Requirement 1 violated! Sum of incoming current at bus %s is %s, "
-                #             "and sum of outgoing current is %s", bus["id"], round(sum_current_in, 2),
-                #             round(sum_current_out, 2))
+                self.logger.error("Requirement 1 violated! Sum of incoming current at bus %s is %s, "
+                            "and sum of outgoing current is %s", bus["id"], round(sum_current_in, 2),
+                            round(sum_current_out, 2))
 
     async def _check_req_2(self):
         """Checks Requirement 2: All voltages reported at one bus are equal."""
@@ -92,8 +94,8 @@ class ReqCheckerLocal:
                     )
 
                     # Report to console
-                    # logger.error("Requirement 2 violated! Voltage on bus %s measured by %s : %s (!= %s)",
-                    #             bus["id"], d.id, round(d.voltage, 2), ref_voltage)
+                    self.logger.error("Requirement 2 violated! Voltage on bus %s measured by %s : %s (!= %s)",
+                                bus["id"], d.id, round(d.voltage, 2), ref_voltage)
 
     async def _check_req_3(self):
         """Checks Requirement 3 (local scope): There is no current on a power line with an open switch."""
@@ -127,8 +129,8 @@ class ReqCheckerLocal:
                     )
 
                     # Report to console
-                    # logger.error("Requirement 3 (local) violated! There is current on line %s with "
-                    #             "an open switch", m["power_line_id"])
+                    self.logger.error("Requirement 3 (local) violated! There is current on line %s with "
+                                "an open switch", m["power_line_id"])
 
     async def _check_req_4(self):
         """Checks Requirement 4 (local scope): Measured voltage and current remain the same over the length of a
@@ -155,8 +157,8 @@ class ReqCheckerLocal:
                     )
 
                     # Report to console
-                    # logger.error("Requirement 4 (local) violated! Current on line %s measured by %s : %s (!= %s)",
-                    #             power_line["id"], d.id, round(d.current, 2), ref_current)
+                    self.logger.error("Requirement 4 (local) violated! Current on line %s measured by %s : %s (!= %s)",
+                                power_line["id"], d.id, round(d.current, 2), ref_current)
 
                 if not (ref_voltage - 0.05 <= round(d.voltage, 2) <= ref_voltage + 0.05):
                     # Add violation to queue
@@ -166,8 +168,8 @@ class ReqCheckerLocal:
                     )
 
                     # Report to console
-                    # logger.error("Requirement 4 (local) violated! Voltage on line %s measured by %s : %s (!= %s)",
-                    #             power_line["id"], d.id, round(d.voltage, 2), ref_voltage)
+                    self.logger.error("Requirement 4 (local) violated! Voltage on line %s measured by %s : %s (!= %s)",
+                                power_line["id"], d.id, round(d.voltage, 2), ref_voltage)
 
     async def _check_req_7(self):
         """Checks Requirement S7: Safety threshold regarding current is met at every meter."""
@@ -185,8 +187,8 @@ class ReqCheckerLocal:
                 )
 
                 # Report to console
-                # logger.error("Requirement 7 violated! Max current in %s should be < %s but is currently %s",
-                #             m["id"], max_current, round(temp_current, 3))
+                self.logger.error("Requirement 7 violated! Max current in %s should be < %s but is currently %s",
+                            m["id"], max_current, round(temp_current, 3))
 
     async def _check_req_8(self):
         """Checks Requirement S8: Safety threshold regarding voltage is met at every meter."""
@@ -205,8 +207,8 @@ class ReqCheckerLocal:
                 )
 
                 # Report to console
-                # logger.error("Requirement 8 violated! Max voltage in %s should be < %s but is currently %s",
-                #             m["id"], max_voltage, round(temp_voltage, 3))
+                self.logger.error("Requirement 8 violated! Max voltage in %s should be < %s but is currently %s",
+                            m["id"], max_voltage, round(temp_voltage, 3))
 
 
 def get_meter_data(data, m):

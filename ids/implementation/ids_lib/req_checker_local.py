@@ -12,6 +12,9 @@ class ReqCheckerLocal:
 
     async def check_requirements(self):
         """Check all requirements of the local scope"""
+
+        self.logger.error(self.__rtu_conf),
+
         await asyncio.gather(
             self._check_req_1(),
             self._check_req_2(),

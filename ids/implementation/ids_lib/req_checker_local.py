@@ -126,14 +126,22 @@ class ReqCheckerLocal:
         """Checks Requirement 3 (local scope): There is no current on a power line with an open switch."""
         data = await self.__data_ref.read_value()
 
+        self.logger.info("Data to be checked: {}\n\n\n".format(data))
+
         # Get all power lines with open switch
         open_switch_lines = []
         for s in self.__rtu_conf["switches"]:
             d = get_switch_data(data, s)
+
+            self.logger.info("Switch: {}\n\n".format(d.value))
+
             # Note: switch is open <=> switch.value = False
             if not d.value:
                 power_line_id = s["power_line_id"]
                 open_switch_lines.append(power_line_id)
+
+        self.logger.info("Open switch lines found: {}\n\n\n".format(open_switch_lines))
+
 
         # Get all local power lines
         power_lines_local = []

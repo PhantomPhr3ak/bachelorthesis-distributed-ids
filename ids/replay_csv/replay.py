@@ -17,7 +17,7 @@ class Replay:
         self.server = []
         self.datablocks = []
         self.configs = []
-        self.caches = []
+        #self.caches = []
         self.scenario_length = 21
         self.scenario = []
         self.amnt_switches = [1, 2]         #TODO: set automatically depending on config
@@ -92,12 +92,13 @@ class Replay:
                 index_register = 0
                 for value in self.scenario[i][y]:
                     if value != "":
-                        print("value is {}".format(value))
 
                         config_item = list(self.configs[i]['registers'].values())[index_register]
 
                         if config_item[2] == "64bit_float":
                             value = float(value)
+
+                        print("value is {}     config is {}\n".format(value, config_item))
 
                         # set register
                         self.datablocks[i].set(

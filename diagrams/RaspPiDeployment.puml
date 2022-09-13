@@ -1,0 +1,68 @@
+@startuml
+'https://plantuml.com/deployment-diagram
+
+package "Deployment IDS Prototype" {
+    node "<<docker daemon>>" {
+        node "<<docker service>> testbed" as testbed {
+            node "<<python application>> test_scenario.py" as sim {
+                component "mosaik (restliche Simulatoren)" as mosaik
+                component "<<RTU-Sim>> RTU2" as rtu2
+                component "<<RTU-Sim>> RTU1" as rtu1
+
+                mosaik -- rtu1
+                mosaik -- rtu2
+            }
+        }
+
+        node "<<raspberry pi>> c2" as c2pi {
+                node "<<docker service>> c2" as c2 {
+                node "<<python application>> c2_server.py" as c2py
+            }
+            node "<<docker service>> visualization" as vis {
+                node "<<python application>> webserver.py" as vispy
+            }
+        }
+
+        node "<<raspberry pi>> monitor 1" as m1 {
+            node "<<docker service>> local_monitor_1" as lm1 {
+                node "<<python application>> local_monitor.py" as lm1py
+            }
+            node "<<docker service>> neighborhood_monitor_1" as nm1 {
+                node "<<python application>> neighborhood_monitor.py" as nm1py
+            }
+        }
+
+        node "<<raspberry pi>> monitor 2" as m2 {
+            node "<<docker service>> local_monitor_2" as lm2 {
+                node "<<python application>> local_monitor.py" as lm2py
+            }
+
+            node "<<docker service>> neighborhood_monitor_2" as nm2 {
+                node "<<python application>> neighborhood_monitor.py" as nm2py
+            }
+        }
+
+
+        c2py -- lm1py : "<<TCP/IP>> opc-ua"
+        c2py -- lm2py : "<<TCP/IP>> opc-ua"
+        c2py -- nm1py : "<<TCP/IP>> opc-ua"
+        c2py -- nm2py : "<<TCP/IP>> opc-ua"
+
+        rtu1 -- lm1py : "<<TCP/IP>> modbus"
+        rtu2 -- lm2py : "<<TCP/IP>> modbus"
+
+        lm1py -- nm1py : "<<TCP/IP>> opc-ua"
+        lm2py -- nm1py : "<<TCP/IP>> opc-ua"
+
+        vispy --> c2py : "Websocket"
+
+    }
+}
+
+top to bottom direction
+left to right direction
+
+'skinparam linetype polyline
+'skinparam linetype ortho
+
+@enduml

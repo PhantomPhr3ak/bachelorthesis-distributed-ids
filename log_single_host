@@ -1,0 +1,171 @@
+mosaik_ids_nm_2  | NM serving OPC Server on: opc.tcp://neighborhood_monitor_2:10809/freeopcua/server/
+mosaik_ids_lm_1  | LM serving OPC Server on: opc.tcp://local_monitor_1:10808/freeopcua/server/
+mosaik_ids_nm_1  | NM serving OPC Server on: opc.tcp://neighborhood_monitor_1:10809/freeopcua/server/
+mosaik_ids_lm_2  | LM serving OPC Server on: opc.tcp://local_monitor_2:10808/freeopcua/server/
+mosaik_ids_lm_1  | registering to c2 with id: lm007657-af41-4493-a1fa-bd7a5fd7bde0
+mosaik_ids_nm_2  | Connected to c&c Server
+mosaik_ids_lm_1  | Connected to c&c Server
+mosaik_ids_lm_2  | registering to c2 with id: lm00c456-7879-4ac8-aa3b-02e38b06cf58
+mosaik_ids_nm_1  | Connected to c&c Server
+mosaik_ids_lm_2  | Connected to c&c Server
+mosaik_ids_nm_2  | registering with c2 as uuid: nm001452-3bfb-4de7-9941-5f463265472c
+mosaik_ids_nm_1  | registering with c2 as uuid: nm00ea36-b222-46c6-811e-4e5f6b7ef259
+mosaik_ids_lm_1  | finished initialization
+mosaik_ids_nm_2  | finished initialization
+mosaik_ids_lm_1  | Modbus Error: [Connection] Failed to connect[replay_csv:10502]
+mosaik_ids_nm_1  | finished initialization
+mosaik_ids_lm_2  | finished initialization
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_1  | Modbus Error: [Connection] Failed to connect[replay_csv:10502]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_nm_1  | NM connected to LM
+mosaik_ids_nm_2  | NM connected to LM
+mosaik_ids_lm_1  | Modbus Error: [Connection] Failed to connect[replay_csv:10502]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_nm_1  | NM connected to LM
+mosaik_ids_nm_2  | NM connected to LM
+mosaik_ids_lm_1  | Modbus Error: [Connection] Failed to connect[replay_csv:10502]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_1  | Connected to Modbus Server 'replay_csv:10502'
+mosaik_ids_lm_2  | Connected to Modbus Server 'replay_csv:10503'
+mosaik_ids_lm_1  | Modbus Error: [Input/Output] Server responded with bad response
+mosaik_ids_lm_2  | Modbus Error: [Input/Output] Server responded with bad response
+mosaik_ids_lm_1  | Modbus Error: [Connection] Failed to connect[replay_csv:10502]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_1  | Modbus Error: [Connection] Failed to connect[replay_csv:10502]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_1  | Modbus Error: [Connection] Failed to connect[replay_csv:10502]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_1  | Modbus Error: [Connection] Failed to connect[replay_csv:10502]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_1  | Modbus Error: [Connection] Failed to connect[replay_csv:10502]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_1  | Modbus Error: [Connection] Failed to connect[replay_csv:10502]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_1  | Modbus Error: [Connection] Failed to connect[replay_csv:10502]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_1  | Modbus Error: [Connection] Failed to connect[replay_csv:10502]
+mosaik_ids_lm_1  | Modbus Error: [Connection] Failed to connect[replay_csv:10502]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Connected to Modbus Server 'replay_csv:10503'
+mosaik_ids_lm_1  | Connected to Modbus Server 'replay_csv:10502'
+mosaik_ids_lm_1  | Requirement 1 violated! Sum of incoming current at bus b22 is 0.02, and sum of outgoing current is 1.03. calculation: in + 0.018116760844004737  =  1.0341966117642476 +  out
+mosaik_ids_lm_1  | Requirement 4 (local) violated! Current on line branch_30 measured by sensor_21 : 0.03 (!= 1.03)
+mosaik_ids_lm_1  | Requirement 7 violated! Max current in sensor_20 should be < 0.2 but is currently 1.034
+mosaik_ids_lm_2  | Requirement 4 (local) violated! Current on line branch_33 measured by sensor_6 : 0.23 (!= 0.03)
+mosaik_ids_lm_2  | Requirement 7 violated! Max current in sensor_6 should be < 0.2 but is currently 0.233
+mosaik_ids_lm_2  | Requirement 4 (local) violated! Current on line branch_33 measured by sensor_6 : 0.23 (!= 0.03)
+mosaik_ids_lm_2  | Requirement 7 violated! Max current in sensor_6 should be < 0.2 but is currently 0.233
+mosaik_ids_lm_2  | Requirement 2 violated! Voltage on bus b25 measured by sensor_8 : 10500.39 (!= 10499.39)
+mosaik_ids_lm_2  | Requirement 4 (local) violated! Voltage on line branch_32 measured by sensor_9 : 10499.38 (!= 10500.39)
+mosaik_ids_lm_2  | Requirement 8 violated! Max voltage in sensor_8 should be < 10500.0 but is currently 10500.394
+mosaik_ids_lm_2  | Requirement 2 violated! Voltage on bus b25 measured by sensor_8 : 10500.39 (!= 10499.39)
+mosaik_ids_lm_2  | Requirement 4 (local) violated! Voltage on line branch_32 measured by sensor_9 : 10499.38 (!= 10500.39)
+mosaik_ids_lm_2  | Requirement 8 violated! Max voltage in sensor_8 should be < 10500.0 but is currently 10500.394
+mosaik_ids_lm_1  | Requirement 2 violated! Voltage on bus b19 measured by sensor_17 : 10500.38 (!= 10499.38)
+mosaik_ids_lm_1  | Requirement 4 (local) violated! Voltage on line branch_38 measured by sensor_22 : 10499.38 (!= 10500.38)
+mosaik_ids_lm_1  | Requirement 8 violated! Max voltage in sensor_17 should be < 10500.0 but is currently 10500.376
+mosaik_ids_lm_1  | Requirement 2 violated! Voltage on bus b19 measured by sensor_17 : 10500.38 (!= 10499.38)
+mosaik_ids_lm_1  | Requirement 4 (local) violated! Voltage on line branch_38 measured by sensor_22 : 10499.38 (!= 10500.38)
+mosaik_ids_lm_1  | Requirement 8 violated! Max voltage in sensor_17 should be < 10500.0 but is currently 10500.376
+mosaik_ids_lm_1  | Modbus Error: [Input/Output] Server responded with bad response
+mosaik_ids_lm_2  | Modbus Error: [Input/Output] Server responded with bad response
+mosaik_ids_lm_1  | Modbus Error: [Connection] Failed to connect[replay_csv:10502]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_1  | Modbus Error: [Connection] Failed to connect[replay_csv:10502]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_1  | Modbus Error: [Connection] Failed to connect[replay_csv:10502]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_1  | Modbus Error: [Connection] Failed to connect[replay_csv:10502]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_1  | Modbus Error: [Connection] Failed to connect[replay_csv:10502]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_1  | Modbus Error: [Connection] Failed to connect[replay_csv:10502]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_1  | Modbus Error: [Connection] Failed to connect[replay_csv:10502]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_1  | Modbus Error: [Connection] Failed to connect[replay_csv:10502]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_1  | Modbus Error: [Connection] Failed to connect[replay_csv:10502]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_1  | Connected to Modbus Server 'replay_csv:10502'
+mosaik_ids_lm_2  | Connected to Modbus Server 'replay_csv:10503'
+mosaik_ids_lm_1  | Requirement 2 violated! Voltage on bus b19 measured by sensor_14 : 10499.58 (!= 10499.48)
+mosaik_ids_lm_1  | Requirement 2 violated! Voltage on bus b19 measured by sensor_16 : 10499.58 (!= 10499.48)
+mosaik_ids_lm_1  | Requirement 2 violated! Voltage on bus b19 measured by sensor_17 : 10499.58 (!= 10499.48)
+mosaik_ids_lm_1  | Requirement 4 (local) violated! Voltage on line branch_40 measured by sensor_14 : 10499.58 (!= 10499.48)
+mosaik_ids_nm_1  | Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_14 : 10499.58 (!= 10499.48)
+mosaik_ids_nm_1  | Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_12 : 10499.58 (!= 10499.48)
+mosaik_ids_nm_2  | Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_14 : 10499.58 (!= 10499.48)
+mosaik_ids_nm_2  | Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_12 : 10499.58 (!= 10499.48)
+mosaik_ids_nm_1  | Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_14 : 10499.58 (!= 10499.48)
+mosaik_ids_nm_1  | Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_12 : 10499.58 (!= 10499.48)
+mosaik_ids_lm_1  | Requirement 2 violated! Voltage on bus b19 measured by sensor_14 : 10499.58 (!= 10499.48)
+mosaik_ids_lm_1  | Requirement 2 violated! Voltage on bus b19 measured by sensor_16 : 10499.58 (!= 10499.48)
+mosaik_ids_lm_1  | Requirement 2 violated! Voltage on bus b19 measured by sensor_17 : 10499.58 (!= 10499.48)
+mosaik_ids_lm_1  | Requirement 4 (local) violated! Voltage on line branch_40 measured by sensor_14 : 10499.58 (!= 10499.48)
+mosaik_ids_nm_2  | Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_14 : 10499.58 (!= 10499.48)
+mosaik_ids_nm_2  | Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_12 : 10499.58 (!= 10499.48)
+mosaik_ids_nm_1  | Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_14 : 10499.58 (!= 10499.48)
+mosaik_ids_nm_1  | Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_12 : 10499.58 (!= 10499.48)
+mosaik_ids_nm_2  | Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_14 : 10499.58 (!= 10499.48)
+mosaik_ids_nm_2  | Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_12 : 10499.58 (!= 10499.48)
+mosaik_ids_nm_1  | Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_14 : 10499.58 (!= 10499.48)
+mosaik_ids_nm_1  | Requirement 4 (neighborhood) violated! Voltage on line branch_40 measured by sensor_12 : 10499.58 (!= 10499.48)
+mosaik_ids_lm_2  | Requirement 2 violated! Voltage on bus b24 measured by sensor_10 : 10499.48 (!= 10499.58)
+mosaik_ids_nm_1  | Requirement 4 (neighborhood) violated! Voltage on line branch_39 measured by sensor_10 : 10499.48 (!= 10499.58)
+mosaik_ids_nm_2  | Requirement 4 (neighborhood) violated! Voltage on line branch_39 measured by sensor_10 : 10499.48 (!= 10499.58)
+mosaik_ids_nm_1  | Requirement 4 (neighborhood) violated! Voltage on line branch_39 measured by sensor_10 : 10499.48 (!= 10499.58)
+mosaik_ids_nm_2  | Requirement 4 (neighborhood) violated! Voltage on line branch_39 measured by sensor_10 : 10499.48 (!= 10499.58)
+mosaik_ids_lm_2  | Requirement 2 violated! Voltage on bus b24 measured by sensor_10 : 10499.48 (!= 10499.58)
+mosaik_ids_nm_1  | Requirement 4 (neighborhood) violated! Voltage on line branch_39 measured by sensor_10 : 10499.48 (!= 10499.58)
+mosaik_ids_nm_2  | Requirement 4 (neighborhood) violated! Voltage on line branch_39 measured by sensor_10 : 10499.48 (!= 10499.58)
+mosaik_ids_nm_1  | Requirement 4 (neighborhood) violated! Voltage on line branch_39 measured by sensor_10 : 10499.48 (!= 10499.58)
+mosaik_ids_nm_2  | Requirement 4 (neighborhood) violated! Voltage on line branch_39 measured by sensor_10 : 10499.48 (!= 10499.58)
+mosaik_ids_lm_2  | Modbus Error: [Input/Output] Server responded with bad response
+mosaik_ids_lm_1  | Modbus Error: [Input/Output] Server responded with bad response
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_1  | Modbus Error: [Connection] Failed to connect[replay_csv:10502]
+mosaik_ids_lm_1  | Modbus Error: [Connection] Failed to connect[replay_csv:10502]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_1  | Modbus Error: [Connection] Failed to connect[replay_csv:10502]
+mosaik_ids_lm_1  | Modbus Error: [Connection] Failed to connect[replay_csv:10502]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_1  | Modbus Error: [Connection] Failed to connect[replay_csv:10502]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_1  | Modbus Error: [Connection] Failed to connect[replay_csv:10502]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_1  | Modbus Error: [Connection] Failed to connect[replay_csv:10502]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_1  | Modbus Error: [Connection] Failed to connect[replay_csv:10502]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_1  | Modbus Error: [Connection] Failed to connect[replay_csv:10502]
+mosaik_ids_lm_2  | Connected to Modbus Server 'replay_csv:10503'
+mosaik_ids_lm_1  | Connected to Modbus Server 'replay_csv:10502'
+mosaik_ids_lm_1  | Requirement 4 (local) violated! Voltage on line branch_38 measured by sensor_22 : 10499.57 (!= 10499.47)
+mosaik_ids_lm_1  | Requirement 4 (local) violated! Voltage on line branch_30 measured by sensor_21 : 10499.57 (!= 10499.47)
+mosaik_ids_nm_1  | Requirement 4 (neighborhood) violated! Voltage on line branch_31 measured by sensor_11 : 10499.47 (!= 10499.57)
+mosaik_ids_nm_1  | Requirement 4 (neighborhood) violated! Voltage on line branch_39 measured by sensor_10 : 10499.47 (!= 10499.57)
+mosaik_ids_nm_2  | Requirement 4 (neighborhood) violated! Voltage on line branch_31 measured by sensor_11 : 10499.47 (!= 10499.57)
+mosaik_ids_nm_2  | Requirement 4 (neighborhood) violated! Voltage on line branch_39 measured by sensor_10 : 10499.47 (!= 10499.57)
+mosaik_ids_nm_1  | Requirement 4 (neighborhood) violated! Voltage on line branch_31 measured by sensor_11 : 10499.47 (!= 10499.57)
+mosaik_ids_nm_1  | Requirement 4 (neighborhood) violated! Voltage on line branch_39 measured by sensor_10 : 10499.47 (!= 10499.57)
+mosaik_ids_nm_2  | Requirement 4 (neighborhood) violated! Voltage on line branch_31 measured by sensor_11 : 10499.47 (!= 10499.57)
+mosaik_ids_nm_2  | Requirement 4 (neighborhood) violated! Voltage on line branch_39 measured by sensor_10 : 10499.47 (!= 10499.57)
+mosaik_ids_lm_1  | Requirement 4 (local) violated! Voltage on line branch_38 measured by sensor_22 : 10499.57 (!= 10499.47)
+mosaik_ids_lm_1  | Requirement 4 (local) violated! Voltage on line branch_30 measured by sensor_21 : 10499.57 (!= 10499.47)
+mosaik_ids_nm_2  | Requirement 4 (neighborhood) violated! Voltage on line branch_31 measured by sensor_11 : 10499.47 (!= 10499.57)
+mosaik_ids_nm_2  | Requirement 4 (neighborhood) violated! Voltage on line branch_39 measured by sensor_10 : 10499.47 (!= 10499.57)
+mosaik_ids_nm_1  | Requirement 4 (neighborhood) violated! Voltage on line branch_31 measured by sensor_11 : 10499.47 (!= 10499.57)
+mosaik_ids_nm_1  | Requirement 4 (neighborhood) violated! Voltage on line branch_39 measured by sensor_10 : 10499.47 (!= 10499.57)
+mosaik_ids_nm_2  | Requirement 4 (neighborhood) violated! Voltage on line branch_31 measured by sensor_11 : 10499.47 (!= 10499.57)
+mosaik_ids_nm_2  | Requirement 4 (neighborhood) violated! Voltage on line branch_39 measured by sensor_10 : 10499.47 (!= 10499.57)
+mosaik_ids_nm_1  | Requirement 4 (neighborhood) violated! Voltage on line branch_31 measured by sensor_11 : 10499.47 (!= 10499.57)
+mosaik_ids_nm_1  | Requirement 4 (neighborhood) violated! Voltage on line branch_39 measured by sensor_10 : 10499.47 (!= 10499.57)
+mosaik_ids_lm_1  | Modbus Error: [Input/Output] Server responded with bad response
+mosaik_ids_lm_2  | Modbus Error: [Input/Output] Server responded with bad response
+mosaik_ids_lm_1  | Modbus Error: [Connection] Failed to connect[replay_csv:10502]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]

@@ -5,6 +5,7 @@ Szenario 1 ---------------------------------------------
 
 [LM 1] | Connected to Modbus Server 'replay_csv:10502'
 [LM 2] | Connected to Modbus Server 'replay_csv:10503'
+
 [LM 1] | Modbus Error: [Input/Output] Server responded with bad response
 [LM 2] | Modbus Error: [Input/Output] Server responded with bad response
 [LM 1] | Modbus Error: [Connection] Failed to connect[replay_csv:10502]
@@ -20,6 +21,7 @@ Szenario 2 ---------------------------------------------
 
 [LM 2] | Connected to Modbus Server 'replay_csv:10503'
 [LM 1] | Connected to Modbus Server 'replay_csv:10502'
+
 [LM 1] | Requirement 1 violated! Sum of incoming current at bus b22 is 0.02, and sum of outgoing current is 1.03. calculation: in + 0.018116760844004737  =  1.0341966117642476 +  out
 [LM 1] | Requirement 4L violated! Current on line branch_30 measured by sensor_21 : 0.03 (!= 1.03)
 [LM 1] | Requirement 7 violated! Max current in sensor_20 should be < 0.2 but is currently 1.034
@@ -56,6 +58,7 @@ Szenario 3 ---------------------------------------------
 
 [LM 1] | Connected to Modbus Server 'replay_csv:10502'
 [LM 2] | Connected to Modbus Server 'replay_csv:10503'
+
 [LM 1] | Requirement 2 violated! Voltage on bus b19 measured by sensor_14 : 10499.58 (!= 10499.48)
 [LM 1] | Requirement 2 violated! Voltage on bus b19 measured by sensor_16 : 10499.58 (!= 10499.48)
 [LM 1] | Requirement 2 violated! Voltage on bus b19 measured by sensor_17 : 10499.58 (!= 10499.48)
@@ -123,6 +126,7 @@ Szenario 4 ---------------------------------------------
 
 [LM 2] | Connected to Modbus Server 'replay_csv:10503'
 [LM 1] | Connected to Modbus Server 'replay_csv:10502'
+
 [LM 1] | Requirement 4L violated! Voltage on line branch_38 measured by sensor_22 : 10499.57 (!= 10499.47)
 [LM 1] | Requirement 4L violated! Voltage on line branch_30 measured by sensor_21 : 10499.57 (!= 10499.47)
 [NM 1] | Requirement 4N violated! Voltage on line branch_31 measured by sensor_11 : 10499.47 (!= 10499.57)
@@ -143,6 +147,7 @@ Szenario 4 ---------------------------------------------
 [NM 2] | Requirement 4N violated! Voltage on line branch_39 measured by sensor_10 : 10499.47 (!= 10499.57)
 [NM 1] | Requirement 4N violated! Voltage on line branch_31 measured by sensor_11 : 10499.47 (!= 10499.57)
 [NM 1] | Requirement 4N violated! Voltage on line branch_39 measured by sensor_10 : 10499.47 (!= 10499.57)
+
 [LM 1] | Modbus Error: [Input/Output] Server responded with bad response
 [LM 2] | Modbus Error: [Input/Output] Server responded with bad response
 [LM 1] | Modbus Error: [Connection] Failed to connect[replay_csv:10502]

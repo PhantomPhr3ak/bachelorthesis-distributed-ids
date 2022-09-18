@@ -1,10 +1,11 @@
-# Securing SCADA networks for smart grids via adistributed evaluation of local sensor data
+# Securing SCADA networks for smart grids via a distributed evaluation of local sensor data
 
 This repository is a proof of concept work to investigate the possibilities of the usage of local information to help raise the overall security in SCADA networks via a hieracichal, process-aware monitoring approach.
 
 This repository is a combination of the three groups [Secure communication](https://zivgitlab.uni-muenster.de/ag-lammers/itsis-blackout/seccomm), [Attack](https://zivgitlab.uni-muenster.de/ag-lammers/itsis-blackout/gruppe-2-attack) and [Simualtion](https://zivgitlab.uni-muenster.de/ag-lammers/itsis-blackout/gruppe-1-simulation) which further developed the [distributed_ids_prototype](https://gitlab.utwente.nl/vmenzel/distributed_ids_prototype) by [Verena Menzel](https://gitlab.utwente.nl/vmenzel) during their Capstone project at the University of Münster. We thank Piet Björn Adick, Hassan Alamou, Rasim Gürkam Almaz, Lisa Angold, Ben Brooksnieder, Tom Deuschle, Kai Oliver Großhanten, Daniel Krug, Gelieza Kötterheinrich, Linus Lehbrink, Justus Pancke and Jan Speckamp for their work. 
 See the original [README](https://gitlab.utwente.nl/vmenzel/distributed_ids_prototype) for details.
 
+It was further modified by Kai Großhanten as part of his bachelors thesis. 
 
 ### Directory Overview
 - **ids**: Implementation of networked IDS
@@ -15,6 +16,10 @@ See the original [README](https://gitlab.utwente.nl/vmenzel/distributed_ids_prot
 - **NOTICE**: Third Party libraries and their licenses
 - **AUTHORS.txt**: Attributions
 - **attack-tool** : The attack tool 
+
+# IMPORTANT: There are two branches in this Repo:
+- **main** This branch contains the version fitted for use on a raspberry pi
+- **singlehost** This branch is modified to work on a single host again
 
 # License
 Individual Licenses for the different parts can be found in the respective directories.

@@ -4,12 +4,13 @@ import pprint
 import logging
 import logging.handlers
 
-#logging.basicConfig(level=logging.DEBUG)
-#logging.getLogger().addHandler(logging.StreamHandler())
+# logging.basicConfig(level=logging.DEBUG)
+# logging.getLogger().addHandler(logging.StreamHandler())
 
 from mosaikrtu.rtu_model import create_server, create_cache, create_datablock, load_rtu
 
-#TODO: translate comments into english
+
+# TODO: translate comments into english
 
 class Replay:
 
@@ -17,20 +18,20 @@ class Replay:
         self.server = []
         self.datablocks = []
         self.configs = []
-        #self.caches = []
+        # self.caches = []
         self.scenario_length = 21
         self.scenario = []
-        self.amnt_switches = [1, 2]         #TODO: set automatically depending on config
-        self.amnt_sensors = [12, 13]        #TODO: set automatically depending on config
+        self.amnt_switches = [1, 2]  # TODO: set automatically depending on config
+        self.amnt_sensors = [12, 13]  # TODO: set automatically depending on config
 
     def load_scenario(self, x):
-        print("Lade Szenario")
+        print("Load configs and scenarios form file")
 
-        # Konfiguration des Testbeds aus XML lesen
+        # Load config of RTUs from xml files
         for i in [0, 1]:
             self.configs.append(load_rtu("replay_csv/data/new_rtu_{}.xml".format(i)))
 
-        #CSV Dateien laden
+        # Read CSV data
         for i in [0, 1]:
             with open("replay_csv/data/scenario_{}_subgrid_{}.csv".format(x, i), "r") as csv_file:
                 csv_reader = csv.reader(csv_file, delimiter=";")
@@ -39,51 +40,40 @@ class Replay:
                 # skip header row
                 csv_reader.__next__()
 
-                # Daten Zeile für Zeile auslesen
-                #for j in range(self.scenario_length):
+                # Load Data row by row and save it
                 for row in csv_reader:
                     self.scenario[i].append(row)
-                #try:
-                #    while 1:
-                #        self.scenario[i].append(csv_reader.__next__())
-                #except StopIteration:
-                #    pass
 
-        # Cache erstellen
-        #for i in [0, 1]:
-        #    self.caches.append(create_cache(self.configs[i]))
-
-        # Datablock erstellen
+        # Create Datablocks
         for i in [0, 1]:
             self.datablocks.append(create_datablock(self.configs[i]))
 
-        # Modbus Server erstellen
+        # Create Modbus servers
         for i in [0, 1]:
             self.server.append(create_server(self.configs[i], self.datablocks[i]))
 
         print("Server erstellt")
 
-
     def run_scenario(self):
-        print("Szenario wird gestartet")
+        print("Szenario is beeing started")
 
-        # Modbus Server starten
+        # Starting Modbus servers
         for i in [0, 1]:
             self.server[i].start()
-            #self.server[i].run()
+            # self.server[i].run()
             print("Started server {}".format(i))
 
-        #debug prints
-        for a in range(3):
-            print("----------------------------- \n")
-        print('configs [%s]' % ', '.join(map(str, self.configs)))
-        for a in range(3):
-            print("----------------------------- \n")
-        print('scenario [%s]' % ', '.join(map(str, self.scenario)))
-        for a in range(3):
-            print("----------------------------- \n")
+        # debug prints
+        # for a in range(3):
+        #    print("----------------------------- \n")
+        # print('configs [%s]' % ', '.join(map(str, self.configs)))
+        # for a in range(3):
+        #    print("----------------------------- \n")
+        # print('scenario [%s]' % ', '.join(map(str, self.scenario)))
+        # for a in range(3):
+        #    print("----------------------------- \n")
 
-        # Modbus Server (synchron) im 2 Sekundentakt mit Daten aus CSV Datei aktualisieren
+        # load new dataset every two seconds into both Modbus Servers (synchronous)
         y = 0
         while y < len(self.scenario[0]):
             print("Refreshing datasets")
@@ -125,8 +115,9 @@ class Replay:
 
         print("Servers stopped")
 
+
 if __name__ == '__main__':
-    for i in [1,2,3,4]:
+    for i in [1, 2, 3, 4]:
         print("starting scenario {}".format(i))
         replay = Replay()
         replay.load_scenario(i)

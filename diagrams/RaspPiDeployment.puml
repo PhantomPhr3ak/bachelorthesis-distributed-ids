@@ -2,17 +2,19 @@
 'https://plantuml.com/deployment-diagram
 
 package "Deployment IDS Prototype" {
-    node "<<docker daemon>>" {
-        node "<<docker service>> testbed" as testbed {
-            node "<<python application>> test_scenario.py" as sim {
-                component "mosaik (restliche Simulatoren)" as mosaik
-                component "<<RTU-Sim>> RTU2" as rtu2
-                component "<<RTU-Sim>> RTU1" as rtu1
+        node "<<raspberry pi>> testbed" as testbedpi {
+            node "<<docker service>> testbed" as testbed {
+                node "<<python application>> test_scenario.py" as sim {
+                    component "mosaik (restliche Simulatoren)" as mosaik
+                    component "<<RTU-Sim>> RTU2" as rtu2
+                    component "<<RTU-Sim>> RTU1" as rtu1
 
-                mosaik -- rtu1
-                mosaik -- rtu2
+                    mosaik -- rtu1
+                    mosaik -- rtu2
+                }
             }
         }
+
 
         node "<<raspberry pi>> c2" as c2pi {
                 node "<<docker service>> c2" as c2 {
@@ -54,13 +56,16 @@ package "Deployment IDS Prototype" {
         lm1py -- nm1py : "<<TCP/IP>> opc-ua"
         lm2py -- nm1py : "<<TCP/IP>> opc-ua"
 
+        lm1py -- nm2py : "<<TCP/IP>> opc-ua"
+        lm2py -- nm2py : "<<TCP/IP>> opc-ua"
+
         vispy --> c2py : "Websocket"
 
     }
-}
+
 
 top to bottom direction
-left to right direction
+'left to right direction
 
 'skinparam linetype polyline
 'skinparam linetype ortho

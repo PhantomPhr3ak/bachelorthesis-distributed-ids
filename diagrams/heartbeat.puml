@@ -1,0 +1,10 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+participant LM1 order 1
+participant "" as Client order 2
+participant C2 order 3
+
+@enduml

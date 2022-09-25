@@ -26,7 +26,11 @@ deactivate Client
 
 LM1 -> Client : connect
 activate Client
-Client -> C2 : opc-ua handshake
+Client -> C2 : send hello
+activate C2
+C2 --> Client
+deactivate C2
+Client -> C2 : open secure channel
 activate C2
 C2 --> Client
 deactivate C2
@@ -54,9 +58,9 @@ deactivate C2
 Client --> LM1
 deactivate Client
 
-LM1 -> Client : "subscribe to C2 events"
+LM1 -> Client : subscribe to C2 events
 activate Client
-Client -> C2 : "subscribe to events"
+Client -> C2 : subscribe to events
 C2 --> Client
 Client --> LM1
 deactivate Client

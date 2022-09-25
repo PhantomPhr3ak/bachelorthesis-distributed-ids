@@ -1,0 +1,45 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+participant RTU1 order 0
+participant LM1 order 1
+participant NM1 order 2
+participant C2 order 3
+
+activate LM1
+LM1 -> C2 : send heartbeat (event)
+
+LM1 -> RTU1 : get measurements
+activate RTU1
+RTU1 --> LM1 : measurements
+deactivate RTU1
+
+LM1 -> LM1 : write rtu data to\n information model
+
+LM1 -> NM1 : notify about new data (event)
+
+activate NM1
+NM1 -> LM1 : get rtu data
+LM1 --> NM1 : rtu data
+NM1 -> NM1 : check for requirement\n violations
+NM1 -> C2 : report found requirement\n violations (event)
+activate C2
+C2 -> C2 : log violations
+deactivate C2
+
+
+deactivate NM1
+LM1 -> LM1 : check for requirement\n violations
+
+LM1 -> C2 : report found requirement\n violations (event)
+activate C2
+C2 -> C2 : log violations
+deactivate C2
+
+deactivate LM1
+
+
+
+@enduml

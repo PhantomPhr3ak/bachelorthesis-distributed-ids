@@ -95,11 +95,6 @@ class Replay:
 
                         config_item = list(self.configs[i]['registers'].values())[index_register]
 
-                        if config_item[2] == "64bit_float":
-                            value = float(value)
-
-                        print("value is {}     config is {}\n".format(value, config_item))
-
                         # set register
                         self.datablocks[i].set(
                             config_item[0],

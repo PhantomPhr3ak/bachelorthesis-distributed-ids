@@ -136,7 +136,7 @@ class ReqCheckerLocal:
             self.logger.info("Switch: {}\n\n".format(d.value))
 
             # Note: switch is open <=> switch.value = False
-            if not d.value:
+            if not d.value[0]:
                 power_line_id = s["power_line_id"]
                 open_switch_lines.append(power_line_id)
 

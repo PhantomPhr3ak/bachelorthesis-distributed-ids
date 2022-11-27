@@ -6,7 +6,6 @@ FROM python:3.7-slim-buster
 WORKDIR /app
 
 RUN /usr/local/bin/python -m pip install --upgrade pip
-RUN pip install -Iv cryptography==37.0.4
 
 COPY requirements.txt requirements.txt
 RUN pip install -r requirements.txt

@@ -5,6 +5,8 @@
 FROM python:3.7-slim-buster
 WORKDIR /app
 
+RUN pip install -Iv cryptography==37.0.4
+
 COPY requirements.txt requirements.txt
 RUN pip install -r requirements.txt
 

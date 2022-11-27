@@ -19,6 +19,8 @@ RUN echo "[global] \n extra-index-url=https://www.piwheels.org/simple" >> /etc/p
 # upgrade pip
 RUN /usr/local/bin/python -m pip install --upgrade pip
 
+RUN pip install -Iv cryptography==37.0.4
+
 # Install mosaik-web
 COPY mosaik-web /app/mosaik-web
 WORKDIR /app/mosaik-web

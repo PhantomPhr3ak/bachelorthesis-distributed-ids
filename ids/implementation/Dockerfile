@@ -10,6 +10,8 @@ RUN apt-get -y install libffi-dev
 
 RUN /usr/local/bin/python -m pip install --upgrade pip
 
+RUN pip install -Iv cryptography==37.0.4
+
 COPY implementation/requirements.txt implementation/requirements.txt
 RUN pip install -r implementation/requirements.txt
 

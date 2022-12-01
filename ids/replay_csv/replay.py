@@ -122,7 +122,7 @@ class Replay:
 
 if __name__ == '__main__':
     for i in [1, 2, 3, 4]:
-        for j in [1, 3, 5, 10]:
+        for j in [1, 3, 5]:
             print("starting scenario {} mit time {}".format(i, j))
 
             replay = Replay()

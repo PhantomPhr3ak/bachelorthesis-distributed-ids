@@ -1,0 +1,292 @@
+root@testbed:/home/pi/bachelorthesis-distributed-ids/ids/deployment# git pull
+hint: Pulling without specifying how to reconcile divergent branches is
+hint: discouraged. You can squelch this message by running one of the following
+hint: commands sometime before your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge (the default strategy)
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+warning: redirecting to https://github.com/PhantomPhr3ak/bachelorthesis-distributed-ids.git/
+remote: Enumerating objects: 26, done.
+remote: Counting objects: 100% (26/26), done.
+remote: Compressing objects: 100% (9/9), done.
+remote: Total 19 (delta 11), reused 18 (delta 10), pack-reused 0
+Unpacking objects: 100% (19/19), 343.77 KiB | 430.00 KiB/s, done.
+From https://github.com/PhantomPhr3ak/bachelorthesis-distributed-ids
+   82f5551..698727e  main       -> origin/main
+Updating 82f5551..698727e
+Fast-forward
+ ids/implementation/ids_lib/req_checker_local.py |     6 +-
+ ids/replay_csv/replay.py                        |     2 +-
+ logs v1/c2.txt                                  | 40009 +++++++++++++++++++++++++++++++++++++++++++
+ logs v1/csv-reply.txt                           |   279 +
+ logs v1/lm1.txt                                 | 15451 +++++++++++++++++
+ logs v1/lm2.txt                                 | 18934 ++++++++++++++++++++
+ logs v1/nm1.txt                                 |  2705 +++
+ logs v1/nm2.txt                                 |  2713 +++
+ 8 files changed, 80095 insertions(+), 4 deletions(-)
+ create mode 100644 logs v1/c2.txt
+ create mode 100644 logs v1/csv-reply.txt
+ create mode 100644 logs v1/lm1.txt
+ create mode 100644 logs v1/lm2.txt
+ create mode 100644 logs v1/nm1.txt
+ create mode 100644 logs v1/nm2.txt
+root@testbed:/home/pi/bachelorthesis-distributed-ids/ids/deployment# docker compose build replay_csv
+[+] Building 66.0s (14/14) FINISHED                                                                  
+ => [internal] load build definition from Dockerfile                                            0.1s
+ => => transferring dockerfile: 32B                                                             0.0s
+ => [internal] load .dockerignore                                                               0.0s
+ => => transferring context: 2B                                                                 0.0s
+ => resolve image config for docker.io/docker/dockerfile:1.3                                    1.4s
+ => CACHED docker-image://docker.io/docker/dockerfile:1.3@sha256:42399d4635eddd7a9b8a24be879d2  0.0s
+ => [internal] load build definition from Dockerfile                                            0.0s
+ => [internal] load .dockerignore                                                               0.0s
+ => [internal] load metadata for docker.io/library/python:3.7-slim-buster                       0.7s
+ => [1/5] FROM docker.io/library/python:3.7-slim-buster@sha256:70cf8d011e0639316c4f8a89276fd55  0.0s
+ => [internal] load build context                                                               0.0s
+ => => transferring context: 6.51kB                                                             0.0s
+ => CACHED [2/5] RUN echo "[global] \n extra-index-url=https://www.piwheels.org/simple" >> /et  0.0s
+ => [3/5] COPY replay_csv/ replay_csv/                                                          0.7s
+ => [4/5] COPY replay_csv/requirements.txt replay_csv/requirements.txt                          0.5s
+ => [5/5] RUN pip install -r replay_csv/requirements.txt                                       56.3s
+ => exporting to image                                                                          5.1s
+ => => exporting layers                                                                         4.9s
+ => => writing image sha256:d458d5e84408a766fa908fc3e558ed49736225b9e8aab293251d8bdc809a12e0    0.0s 
+ => => naming to docker.io/library/deployment-replay_csv                                        0.0s 
+root@testbed:/home/pi/bachelorthesis-distributed-ids/ids/deployment# docker compose build replay_csv 
+[+] Building 2.7s (14/14) FINISHED                                                                   
+ => [internal] load build definition from Dockerfile                                            0.0s
+ => => transferring dockerfile: 32B                                                             0.0s
+ => [internal] load .dockerignore                                                               0.0s
+ => => transferring context: 2B                                                                 0.0s
+ => resolve image config for docker.io/docker/dockerfile:1.3                                    0.6s
+ => CACHED docker-image://docker.io/docker/dockerfile:1.3@sha256:42399d4635eddd7a9b8a24be879d2  0.0s
+ => [internal] load .dockerignore                                                               0.0s
+ => [internal] load build definition from Dockerfile                                            0.0s
+ => [internal] load metadata for docker.io/library/python:3.7-slim-buster                       0.6s
+ => [1/5] FROM docker.io/library/python:3.7-slim-buster@sha256:70cf8d011e0639316c4f8a89276fd55  0.0s
+ => [internal] load build context                                                               0.0s
+ => => transferring context: 1.98kB                                                             0.0s
+ => CACHED [2/5] RUN echo "[global] \n extra-index-url=https://www.piwheels.org/simple" >> /et  0.0s
+ => CACHED [3/5] COPY replay_csv/ replay_csv/                                                   0.0s
+ => CACHED [4/5] COPY replay_csv/requirements.txt replay_csv/requirements.txt                   0.0s
+ => CACHED [5/5] RUN pip install -r replay_csv/requirements.txt                                 0.0s
+ => exporting to image                                                                          0.1s
+ => => exporting layers                                                                         0.0s
+ => => writing image sha256:d458d5e84408a766fa908fc3e558ed49736225b9e8aab293251d8bdc809a12e0    0.0s
+ => => naming to docker.io/library/deployment-replay_csv                                        0.0s
+root@testbed:/home/pi/bachelorthesis-distributed-ids/ids/deployment# docker compose up replay_csv
+[+] Running 1/1
+ ⠿ Container replay_csv  Recreated                                                              0.4s
+Attaching to replay_csv
+replay_csv  | starting scenario 1 mit time 1
+replay_csv  | Lade Szenario
+replay_csv  | [*] Loading configuration XML: 'replay_csv/data/new_rtu_0.xml'.
+replay_csv  | [*] Loading configuration XML: 'replay_csv/data/new_rtu_1.xml'.
+replay_csv  | [*] Modbus-Server created @ 0.0.0.0:10502 for RTU
+replay_csv  | [*] Modbus-Server created @ 0.0.0.0:10503 for RTU
+replay_csv  | Server erstellt
+replay_csv  | Szenario wird gestartet
+replay_csv  | Started server 0
+replay_csv  | Started server 1
+replay_csv  | No more data available, stopping server
+replay_csv  | [*] Server stopping.[*] Stopping server.
+replay_csv  | 
+replay_csv  | [*] Server stopping.
+replay_csv  | [*] Stopping server.
+replay_csv  | Servers stopped
+replay_csv  | finished scenario 1
+replay_csv  | starting scenario 1 mit time 3
+replay_csv  | Lade Szenario
+replay_csv  | [*] Loading configuration XML: 'replay_csv/data/new_rtu_0.xml'.
+replay_csv  | [*] Loading configuration XML: 'replay_csv/data/new_rtu_1.xml'.
+replay_csv  | [*] Modbus-Server created @ 0.0.0.0:10502 for RTU
+replay_csv  | [*] Modbus-Server created @ 0.0.0.0:10503 for RTU
+replay_csv  | Server erstellt
+replay_csv  | Szenario wird gestartet
+replay_csv  | Started server 0
+replay_csv  | Started server 1
+replay_csv  | No more data available, stopping server
+replay_csv  | [*] Server stopping.
+replay_csv  | [*] Stopping server.
+replay_csv  | [*] Server stopping.[*] Stopping server.
+replay_csv  | Servers stopped
+replay_csv  | finished scenario 1
+replay_csv  | 
+replay_csv  | starting scenario 1 mit time 5
+replay_csv  | Lade Szenario
+replay_csv  | [*] Loading configuration XML: 'replay_csv/data/new_rtu_0.xml'.
+replay_csv  | [*] Loading configuration XML: 'replay_csv/data/new_rtu_1.xml'.
+replay_csv  | [*] Modbus-Server created @ 0.0.0.0:10502 for RTU
+replay_csv  | [*] Modbus-Server created @ 0.0.0.0:10503 for RTU
+replay_csv  | Server erstellt
+replay_csv  | Szenario wird gestartet
+replay_csv  | Started server 0
+replay_csv  | Started server 1
+replay_csv  | No more data available, stopping server
+replay_csv  | [*] Server stopping.[*] Stopping server.
+replay_csv  | 
+replay_csv  | [*] Server stopping.
+replay_csv  | [*] Stopping server.
+replay_csv  | Servers stopped
+replay_csv  | finished scenario 1
+replay_csv  | starting scenario 2 mit time 1
+replay_csv  | Lade Szenario
+replay_csv  | [*] Loading configuration XML: 'replay_csv/data/new_rtu_0.xml'.
+replay_csv  | [*] Loading configuration XML: 'replay_csv/data/new_rtu_1.xml'.
+replay_csv  | [*] Modbus-Server created @ 0.0.0.0:10502 for RTU
+replay_csv  | [*] Modbus-Server created @ 0.0.0.0:10503 for RTU
+replay_csv  | Server erstellt
+replay_csv  | Szenario wird gestartet
+replay_csv  | Started server 0
+replay_csv  | Started server 1
+replay_csv  | No more data available, stopping server
+replay_csv  | [*] Server stopping.
+replay_csv  | [*] Stopping server.
+replay_csv  | [*] Server stopping.[*] Stopping server.
+replay_csv  | Servers stopped
+replay_csv  | finished scenario 2
+replay_csv  | 
+replay_csv  | starting scenario 2 mit time 3
+replay_csv  | Lade Szenario
+replay_csv  | [*] Loading configuration XML: 'replay_csv/data/new_rtu_0.xml'.
+replay_csv  | [*] Loading configuration XML: 'replay_csv/data/new_rtu_1.xml'.
+replay_csv  | [*] Modbus-Server created @ 0.0.0.0:10502 for RTU
+replay_csv  | [*] Modbus-Server created @ 0.0.0.0:10503 for RTU
+replay_csv  | Server erstellt
+replay_csv  | Szenario wird gestartet
+replay_csv  | Started server 0
+replay_csv  | Started server 1
+replay_csv  | No more data available, stopping server
+replay_csv  | [*] Server stopping.[*] Stopping server.
+replay_csv  | 
+replay_csv  | [*] Server stopping.
+replay_csv  | [*] Stopping server.
+replay_csv  | Servers stopped
+replay_csv  | finished scenario 2
+replay_csv  | starting scenario 2 mit time 5
+replay_csv  | Lade Szenario
+replay_csv  | [*] Loading configuration XML: 'replay_csv/data/new_rtu_0.xml'.
+replay_csv  | [*] Loading configuration XML: 'replay_csv/data/new_rtu_1.xml'.
+replay_csv  | [*] Modbus-Server created @ 0.0.0.0:10502 for RTU
+replay_csv  | [*] Modbus-Server created @ 0.0.0.0:10503 for RTU
+replay_csv  | Server erstellt
+replay_csv  | Szenario wird gestartet
+replay_csv  | Started server 0
+replay_csv  | Started server 1
+replay_csv  | No more data available, stopping server
+replay_csv  | [*] Server stopping.[*] Stopping server.
+replay_csv  | 
+replay_csv  | [*] Server stopping.[*] Stopping server.
+replay_csv  | 
+replay_csv  | Servers stopped
+replay_csv  | finished scenario 2
+replay_csv  | starting scenario 3 mit time 1
+replay_csv  | Lade Szenario
+replay_csv  | [*] Loading configuration XML: 'replay_csv/data/new_rtu_0.xml'.
+replay_csv  | [*] Loading configuration XML: 'replay_csv/data/new_rtu_1.xml'.
+replay_csv  | [*] Modbus-Server created @ 0.0.0.0:10502 for RTU
+replay_csv  | [*] Modbus-Server created @ 0.0.0.0:10503 for RTU
+replay_csv  | Server erstellt
+replay_csv  | Szenario wird gestartet
+replay_csv  | Started server 0
+replay_csv  | Started server 1
+replay_csv  | No more data available, stopping server
+replay_csv  | [*] Server stopping.
+replay_csv  | [*] Stopping server.
+replay_csv  | [*] Server stopping.
+replay_csv  | [*] Stopping server.
+replay_csv  | Servers stopped
+replay_csv  | finished scenario 3
+replay_csv  | starting scenario 3 mit time 3
+replay_csv  | Lade Szenario
+replay_csv  | [*] Loading configuration XML: 'replay_csv/data/new_rtu_0.xml'.
+replay_csv  | [*] Loading configuration XML: 'replay_csv/data/new_rtu_1.xml'.
+replay_csv  | [*] Modbus-Server created @ 0.0.0.0:10502 for RTU
+replay_csv  | [*] Modbus-Server created @ 0.0.0.0:10503 for RTU
+replay_csv  | Server erstellt
+replay_csv  | Szenario wird gestartet
+replay_csv  | Started server 0
+replay_csv  | Started server 1
+replay_csv  | No more data available, stopping server
+replay_csv  | [*] Server stopping.[*] Stopping server.
+replay_csv  | 
+replay_csv  | [*] Server stopping.[*] Stopping server.
+replay_csv  | Servers stopped
+replay_csv  | finished scenario 3
+replay_csv  | 
+replay_csv  | starting scenario 3 mit time 5
+replay_csv  | Lade Szenario
+replay_csv  | [*] Loading configuration XML: 'replay_csv/data/new_rtu_0.xml'.
+replay_csv  | [*] Loading configuration XML: 'replay_csv/data/new_rtu_1.xml'.
+replay_csv  | [*] Modbus-Server created @ 0.0.0.0:10502 for RTU
+replay_csv  | [*] Modbus-Server created @ 0.0.0.0:10503 for RTU
+replay_csv  | Server erstellt
+replay_csv  | Szenario wird gestartet
+replay_csv  | Started server 0
+replay_csv  | Started server 1
+replay_csv  | No more data available, stopping server
+replay_csv  | [*] Server stopping.
+replay_csv  | [*] Stopping server.
+replay_csv  | [*] Server stopping.[*] Stopping server.
+replay_csv  | Servers stopped
+replay_csv  | finished scenario 3
+replay_csv  | 
+replay_csv  | starting scenario 4 mit time 1
+replay_csv  | Lade Szenario
+replay_csv  | [*] Loading configuration XML: 'replay_csv/data/new_rtu_0.xml'.
+replay_csv  | [*] Loading configuration XML: 'replay_csv/data/new_rtu_1.xml'.
+replay_csv  | [*] Modbus-Server created @ 0.0.0.0:10502 for RTU
+replay_csv  | [*] Modbus-Server created @ 0.0.0.0:10503 for RTU
+replay_csv  | Server erstellt
+replay_csv  | Szenario wird gestartet
+replay_csv  | Started server 0
+replay_csv  | Started server 1
+replay_csv  | No more data available, stopping server
+replay_csv  | [*] Server stopping.[*] Stopping server.
+replay_csv  | 
+replay_csv  | [*] Server stopping.[*] Stopping server.
+replay_csv  | Servers stopped
+replay_csv  | finished scenario 4
+replay_csv  | 
+replay_csv  | starting scenario 4 mit time 3
+replay_csv  | Lade Szenario
+replay_csv  | [*] Loading configuration XML: 'replay_csv/data/new_rtu_0.xml'.
+replay_csv  | [*] Loading configuration XML: 'replay_csv/data/new_rtu_1.xml'.
+replay_csv  | [*] Modbus-Server created @ 0.0.0.0:10502 for RTU
+replay_csv  | [*] Modbus-Server created @ 0.0.0.0:10503 for RTU
+replay_csv  | Server erstellt
+replay_csv  | Szenario wird gestartet
+replay_csv  | Started server 0
+replay_csv  | Started server 1
+replay_csv  | No more data available, stopping server
+replay_csv  | [*] Server stopping.
+replay_csv  | [*] Stopping server.
+replay_csv  | [*] Server stopping.[*] Stopping server.
+replay_csv  | Servers stopped
+replay_csv  | finished scenario 4
+replay_csv  | 
+replay_csv  | starting scenario 4 mit time 5
+replay_csv  | Lade Szenario
+replay_csv  | [*] Loading configuration XML: 'replay_csv/data/new_rtu_0.xml'.
+replay_csv  | [*] Loading configuration XML: 'replay_csv/data/new_rtu_1.xml'.
+replay_csv  | [*] Modbus-Server created @ 0.0.0.0:10502 for RTU
+replay_csv  | [*] Modbus-Server created @ 0.0.0.0:10503 for RTU
+replay_csv  | Server erstellt
+replay_csv  | Szenario wird gestartet
+replay_csv  | Started server 0
+replay_csv  | Started server 1
+replay_csv  | No more data available, stopping server
+replay_csv  | [*] Server stopping.
+replay_csv  | [*] Stopping server.
+replay_csv  | [*] Server stopping.
+replay_csv  | [*] Stopping server.
+replay_csv  | Servers stopped
+replay_csv  | finished scenario 4
+replay_csv exited with code 0
+root@testbed:/home/pi/bachelorthesis-distributed-ids/ids/deployment# 

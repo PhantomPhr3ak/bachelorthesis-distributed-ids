@@ -2,6 +2,7 @@ import asyncio
 import logging
 import queue
 import sys
+import time
 
 import psutil
 from asyncua import Client, Server, ua
@@ -330,8 +331,13 @@ class NM:
                 # Iterate over all LMs that have reported to have new data
                 if len(self.lm_to_check) > 0:
                     for lm in self.lm_to_check:
+                        time_elapsed = time.clock()
+
                         await req_checker.check_requirements(lm)
                         await self._report_violation_via_opc(self.violation_queue)
+
+                        time_elapsed = time.clock() - time_elapsed
+                        logger.info("Last cycle took %f", time_elapsed)
                     self.lm_to_check = []
                 # Publish log messages via OPC
                 await self._log_to_opc()

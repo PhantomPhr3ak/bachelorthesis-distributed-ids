@@ -410,8 +410,15 @@ class LM:
                 try:
                     await self.__heartbeat_event_generator.trigger()
                     if await self._read_modbus():
+                        #save start time of evaluation
+                        time_elapsed = time.clock()
+
                         await req_checker.check_requirements()
                         await self._report_violation_via_opc(self.violation_queue)
+
+                        #print duration of the last evaluation cycle in seconds
+                        time_elapsed = time.clock() - time_elapsed
+                        logger.info("Last cycle took (sec) %f", time_elapsed)
                 except Exception as err:
                     logger.error("Exception in local monitor: %s", err)
                 # Send new logging messages to opc

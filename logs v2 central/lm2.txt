@@ -1,0 +1,1016 @@
+Last login: Mon Dec  5 21:27:08 on ttys007
+kaigrosshanten@MacBook-Pro-10 ~ % cd PycharmProjects/distributed-smart-grid-ids/ids/deployment/
+kaigrosshanten@MacBook-Pro-10 deployment % docker compose up local_monitor_2
+[+] Running 1/0
+ ⠿ Container mosaik_ids_lm_2  Created                                                                                                                                                                                                        0.0s
+Attaching to mosaik_ids_lm_2
+mosaik_ids_lm_2  | LM serving OPC Server on: opc.tcp://local_monitor_2:10808/freeopcua/server/
+mosaik_ids_lm_2  | registering to c2 with id: lm00a5a9-6452-4318-8be9-6efa46134a0b
+mosaik_ids_lm_2  | updating client limits to: TransportLimits(max_recv_buffer=65535, max_send_buffer=65535, max_chunk_count=1601, max_message_size=104857600)
+mosaik_ids_lm_2  | Connected to c&c Server
+mosaik_ids_lm_2  | updating server limits to: TransportLimits(max_recv_buffer=65535, max_send_buffer=65535, max_chunk_count=1601, max_message_size=104857600)
+mosaik_ids_lm_2  | finished initialization
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | updating server limits to: TransportLimits(max_recv_buffer=65535, max_send_buffer=65535, max_chunk_count=1601, max_message_size=104857600)
+mosaik_ids_lm_2  | updating server limits to: TransportLimits(max_recv_buffer=65535, max_send_buffer=65535, max_chunk_count=1601, max_message_size=104857600)
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Connected to Modbus Server 'replay_csv:10503'
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001209
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001091
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000412
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001962
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002644
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002391
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001976
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001581
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000882
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002458
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002154
+mosaik_ids_lm_2  | Last cycle took (sec) 0.003371
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001452
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002058
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001827
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001764
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001561
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002131
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001753
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002346
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000634
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000811
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000617
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000547
+mosaik_ids_lm_2  | Modbus Error: [Input/Output] Server responded with bad response
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Connected to Modbus Server 'replay_csv:10503'
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000752
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000432
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000496
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000872
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000437
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000434
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001376
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000516
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000629
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000630
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000486
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000811
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000573
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000678
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000597
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000841
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000822
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000788
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000722
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001713
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000809
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000703
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000794
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000988
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000812
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001531
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001404
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001494
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001580
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001354
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001154
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001494
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001615
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001322
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001220
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001355
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001274
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000899
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001050
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001373
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001373
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001753
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001500
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001145
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001479
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001789
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002264
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002318
+mosaik_ids_lm_2  | Last cycle took (sec) 0.003034
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002175
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002998
+mosaik_ids_lm_2  | Last cycle took (sec) 0.003019
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002433
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001164
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001067
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001484
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001035
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001539
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001489
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001404
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001218
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000967
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001179
+mosaik_ids_lm_2  | Modbus Error: [Input/Output] Server responded with bad response
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Connected to Modbus Server 'replay_csv:10503'
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001401
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000997
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000993
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001258
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000965
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002139
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001306
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000929
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000926
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001177
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000898
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000954
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001189
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001477
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001196
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001214
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001141
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001705
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001796
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001177
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001188
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002629
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002131
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002135
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002185
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002117
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002269
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002288
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002115
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002486
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002206
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002801
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002119
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002028
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002112
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002187
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000867
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001010
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001384
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001627
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001541
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000944
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001312
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001181
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001431
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001319
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001220
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001202
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001321
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001658
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001570
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001217
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001254
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001697
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001583
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001085
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001523
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001816
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001105
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001226
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001520
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000944
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001182
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001303
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001188
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001210
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000953
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000877
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001098
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001099
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001021
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001182
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000985
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001180
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001297
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001421
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001134
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001383
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001722
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002577
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002658
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002837
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002463
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001082
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000911
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001258
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001325
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000913
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001153
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000997
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001273
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000908
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000953
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001446
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001384
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001000
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001242
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001024
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001282
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000945
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001262
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001354
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001556
+mosaik_ids_lm_2  | Modbus Error: [Input/Output] Server responded with bad response
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Connected to Modbus Server 'replay_csv:10503'
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001037
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000982
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000921
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001960
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000914
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002279
+mosaik_ids_lm_2  | Requirement 3 (local) violated! There is current on line branch_37 with an open switch
+mosaik_ids_lm_2  | Requirement 3 (local) violated! There is current on line branch_37 with an open switch
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002770
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001519
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001445
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001247
+mosaik_ids_lm_2  | Requirement 4 (local) violated! Current on line branch_33 measured by sensor_6 : 0.23 (!= 0.03)
+mosaik_ids_lm_2  | Requirement 7 violated! Max current in sensor_6 should be < 0.2 but is currently 0.233
+mosaik_ids_lm_2  | Last cycle took (sec) 0.003468
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001183
+mosaik_ids_lm_2  | Requirement 2 violated! Voltage on bus b25 measured by sensor_8 : 10500.39 (!= 10499.39)
+mosaik_ids_lm_2  | Requirement 4 (local) violated! Voltage on line branch_32 measured by sensor_9 : 10499.38 (!= 10500.39)
+mosaik_ids_lm_2  | Requirement 8 violated! Max voltage in sensor_8 should be < 10500.0 but is currently 10500.394
+mosaik_ids_lm_2  | Last cycle took (sec) 0.003086
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001195
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001252
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002515
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002894
+mosaik_ids_lm_2  | Last cycle took (sec) 0.004300
+mosaik_ids_lm_2  | Last cycle took (sec) 0.003229
+mosaik_ids_lm_2  | Last cycle took (sec) 0.003876
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002616
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000943
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001287
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002314
+mosaik_ids_lm_2  | Modbus Error: [Input/Output] Server responded with bad response
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Connected to Modbus Server 'replay_csv:10503'
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000864
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000870
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000971
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002510
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002737
+mosaik_ids_lm_2  | Last cycle took (sec) 0.003613
+mosaik_ids_lm_2  | Last cycle took (sec) 0.003573
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001230
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001520
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001491
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002798
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001152
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001507
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001221
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001682
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001138
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001161
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001576
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001746
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001391
+mosaik_ids_lm_2  | Requirement 3 (local) violated! There is current on line branch_37 with an open switch
+mosaik_ids_lm_2  | Requirement 3 (local) violated! There is current on line branch_37 with an open switch
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002676
+mosaik_ids_lm_2  | Requirement 3 (local) violated! There is current on line branch_37 with an open switch
+mosaik_ids_lm_2  | Requirement 3 (local) violated! There is current on line branch_37 with an open switch
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002295
+mosaik_ids_lm_2  | Requirement 3 (local) violated! There is current on line branch_37 with an open switch
+mosaik_ids_lm_2  | Requirement 3 (local) violated! There is current on line branch_37 with an open switch
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002541
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001356
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001397
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001159
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001054
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002006
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001190
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001729
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001582
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001349
+mosaik_ids_lm_2  | Requirement 4 (local) violated! Current on line branch_33 measured by sensor_6 : 0.23 (!= 0.03)
+mosaik_ids_lm_2  | Requirement 7 violated! Max current in sensor_6 should be < 0.2 but is currently 0.233
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002406
+mosaik_ids_lm_2  | Requirement 4 (local) violated! Current on line branch_33 measured by sensor_6 : 0.23 (!= 0.03)
+mosaik_ids_lm_2  | Requirement 7 violated! Max current in sensor_6 should be < 0.2 but is currently 0.233
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002896
+mosaik_ids_lm_2  | Requirement 4 (local) violated! Current on line branch_33 measured by sensor_6 : 0.23 (!= 0.03)
+mosaik_ids_lm_2  | Requirement 7 violated! Max current in sensor_6 should be < 0.2 but is currently 0.233
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002483
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001513
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001414
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001570
+mosaik_ids_lm_2  | Requirement 2 violated! Voltage on bus b25 measured by sensor_8 : 10500.39 (!= 10499.39)
+mosaik_ids_lm_2  | Requirement 4 (local) violated! Voltage on line branch_32 measured by sensor_9 : 10499.38 (!= 10500.39)
+mosaik_ids_lm_2  | Requirement 8 violated! Max voltage in sensor_8 should be < 10500.0 but is currently 10500.394
+mosaik_ids_lm_2  | Last cycle took (sec) 0.004003
+mosaik_ids_lm_2  | Requirement 2 violated! Voltage on bus b25 measured by sensor_8 : 10500.39 (!= 10499.39)
+mosaik_ids_lm_2  | Requirement 4 (local) violated! Voltage on line branch_32 measured by sensor_9 : 10499.38 (!= 10500.39)
+mosaik_ids_lm_2  | Requirement 8 violated! Max voltage in sensor_8 should be < 10500.0 but is currently 10500.394
+mosaik_ids_lm_2  | Last cycle took (sec) 0.004313
+mosaik_ids_lm_2  | Requirement 2 violated! Voltage on bus b25 measured by sensor_8 : 10500.39 (!= 10499.39)
+mosaik_ids_lm_2  | Requirement 4 (local) violated! Voltage on line branch_32 measured by sensor_9 : 10499.38 (!= 10500.39)
+mosaik_ids_lm_2  | Requirement 8 violated! Max voltage in sensor_8 should be < 10500.0 but is currently 10500.394
+mosaik_ids_lm_2  | Last cycle took (sec) 0.005782
+mosaik_ids_lm_2  | Last cycle took (sec) 0.003237
+mosaik_ids_lm_2  | Last cycle took (sec) 0.003940
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001173
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001226
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002876
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002339
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002183
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001267
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001104
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001606
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001396
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002226
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001140
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001339
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001020
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000993
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002133
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001517
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001152
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001026
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001401
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000862
+mosaik_ids_lm_2  | Modbus Error: [Input/Output] Server responded with bad response
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Connected to Modbus Server 'replay_csv:10503'
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000992
+mosaik_ids_lm_2  | Last cycle took (sec) 0.003582
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002736
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002516
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001208
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001223
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002005
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001345
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001174
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001554
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002325
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001182
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001139
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001305
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001490
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000983
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001248
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001298
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002708
+mosaik_ids_lm_2  | Last cycle took (sec) 0.003493
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001153
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001238
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001830
+mosaik_ids_lm_2  | Last cycle took (sec) 0.004531
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002730
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002628
+mosaik_ids_lm_2  | Last cycle took (sec) 0.003091
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001154
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001186
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001205
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001454
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001129
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001510
+mosaik_ids_lm_2  | Requirement 3 (local) violated! There is current on line branch_37 with an open switch
+mosaik_ids_lm_2  | Requirement 3 (local) violated! There is current on line branch_37 with an open switch
+mosaik_ids_lm_2  | Last cycle took (sec) 0.003162
+mosaik_ids_lm_2  | Requirement 3 (local) violated! There is current on line branch_37 with an open switch
+mosaik_ids_lm_2  | Requirement 3 (local) violated! There is current on line branch_37 with an open switch
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002592
+mosaik_ids_lm_2  | Requirement 3 (local) violated! There is current on line branch_37 with an open switch
+mosaik_ids_lm_2  | Requirement 3 (local) violated! There is current on line branch_37 with an open switch
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002611
+mosaik_ids_lm_2  | Requirement 3 (local) violated! There is current on line branch_37 with an open switch
+mosaik_ids_lm_2  | Requirement 3 (local) violated! There is current on line branch_37 with an open switch
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002855
+mosaik_ids_lm_2  | Requirement 3 (local) violated! There is current on line branch_37 with an open switch
+mosaik_ids_lm_2  | Requirement 3 (local) violated! There is current on line branch_37 with an open switch
+mosaik_ids_lm_2  | Last cycle took (sec) 0.003085
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000978
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002013
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001173
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001283
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001577
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001317
+mosaik_ids_lm_2  | Last cycle took (sec) 0.003290
+mosaik_ids_lm_2  | Last cycle took (sec) 0.003213
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002909
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002885
+mosaik_ids_lm_2  | Last cycle took (sec) 0.003686
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001037
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001572
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001021
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001411
+mosaik_ids_lm_2  | Requirement 4 (local) violated! Current on line branch_33 measured by sensor_6 : 0.23 (!= 0.03)
+mosaik_ids_lm_2  | Requirement 7 violated! Max current in sensor_6 should be < 0.2 but is currently 0.233
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002802
+mosaik_ids_lm_2  | Requirement 4 (local) violated! Current on line branch_33 measured by sensor_6 : 0.23 (!= 0.03)
+mosaik_ids_lm_2  | Requirement 7 violated! Max current in sensor_6 should be < 0.2 but is currently 0.233
+mosaik_ids_lm_2  | Last cycle took (sec) 0.003169
+mosaik_ids_lm_2  | Requirement 4 (local) violated! Current on line branch_33 measured by sensor_6 : 0.23 (!= 0.03)
+mosaik_ids_lm_2  | Requirement 7 violated! Max current in sensor_6 should be < 0.2 but is currently 0.233
+mosaik_ids_lm_2  | Last cycle took (sec) 0.003079
+mosaik_ids_lm_2  | Requirement 4 (local) violated! Current on line branch_33 measured by sensor_6 : 0.23 (!= 0.03)
+mosaik_ids_lm_2  | Requirement 7 violated! Max current in sensor_6 should be < 0.2 but is currently 0.233
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002198
+mosaik_ids_lm_2  | Requirement 4 (local) violated! Current on line branch_33 measured by sensor_6 : 0.23 (!= 0.03)
+mosaik_ids_lm_2  | Requirement 7 violated! Max current in sensor_6 should be < 0.2 but is currently 0.233
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002341
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001273
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001035
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002827
+mosaik_ids_lm_2  | Last cycle took (sec) 0.003960
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002437
+mosaik_ids_lm_2  | Requirement 2 violated! Voltage on bus b25 measured by sensor_8 : 10500.39 (!= 10499.39)
+mosaik_ids_lm_2  | Requirement 4 (local) violated! Voltage on line branch_32 measured by sensor_9 : 10499.38 (!= 10500.39)
+mosaik_ids_lm_2  | Requirement 8 violated! Max voltage in sensor_8 should be < 10500.0 but is currently 10500.394
+mosaik_ids_lm_2  | Last cycle took (sec) 0.005804
+mosaik_ids_lm_2  | Requirement 2 violated! Voltage on bus b25 measured by sensor_8 : 10500.39 (!= 10499.39)
+mosaik_ids_lm_2  | Requirement 4 (local) violated! Voltage on line branch_32 measured by sensor_9 : 10499.38 (!= 10500.39)
+mosaik_ids_lm_2  | Requirement 8 violated! Max voltage in sensor_8 should be < 10500.0 but is currently 10500.394
+mosaik_ids_lm_2  | Last cycle took (sec) 0.006460
+mosaik_ids_lm_2  | Requirement 2 violated! Voltage on bus b25 measured by sensor_8 : 10500.39 (!= 10499.39)
+mosaik_ids_lm_2  | Requirement 4 (local) violated! Voltage on line branch_32 measured by sensor_9 : 10499.38 (!= 10500.39)
+mosaik_ids_lm_2  | Requirement 8 violated! Max voltage in sensor_8 should be < 10500.0 but is currently 10500.394
+mosaik_ids_lm_2  | Last cycle took (sec) 0.005673
+mosaik_ids_lm_2  | Requirement 2 violated! Voltage on bus b25 measured by sensor_8 : 10500.39 (!= 10499.39)
+mosaik_ids_lm_2  | Requirement 4 (local) violated! Voltage on line branch_32 measured by sensor_9 : 10499.38 (!= 10500.39)
+mosaik_ids_lm_2  | Requirement 8 violated! Max voltage in sensor_8 should be < 10500.0 but is currently 10500.394
+mosaik_ids_lm_2  | Last cycle took (sec) 0.006358
+mosaik_ids_lm_2  | Last cycle took (sec) 0.003158
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001418
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001197
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001237
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001256
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002674
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001276
+mosaik_ids_lm_2  | Last cycle took (sec) 0.003272
+mosaik_ids_lm_2  | Last cycle took (sec) 0.003078
+mosaik_ids_lm_2  | Last cycle took (sec) 0.003074
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001509
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001849
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001531
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001428
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002656
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001902
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001526
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001511
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001119
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001746
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001361
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001535
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001578
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002123
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002771
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002212
+mosaik_ids_lm_2  | Last cycle took (sec) 0.003625
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001165
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001158
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001167
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000929
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001703
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001184
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001756
+mosaik_ids_lm_2  | Last cycle took (sec) 0.003086
+mosaik_ids_lm_2  | Modbus Error: [Input/Output] Server responded with bad response
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Connected to Modbus Server 'replay_csv:10503'
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001015
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000894
+mosaik_ids_lm_2  | Requirement 2 violated! Voltage on bus b24 measured by sensor_10 : 10499.48 (!= 10499.58)
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002573
+mosaik_ids_lm_2  | Last cycle took (sec) 0.004210
+mosaik_ids_lm_2  | Requirement 3 (local) violated! There is current on line branch_31 with an open switch
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002680
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002311
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002268
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002186
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002591
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001799
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001714
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001024
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001242
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001017
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001213
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001289
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001162
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001564
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000891
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001095
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002193
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001084
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000940
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001142
+mosaik_ids_lm_2  | Modbus Error: [Input/Output] Server responded with bad response
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Connected to Modbus Server 'replay_csv:10503'
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001157
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002646
+mosaik_ids_lm_2  | Last cycle took (sec) 0.003002
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000913
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001081
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001185
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001054
+mosaik_ids_lm_2  | Requirement 2 violated! Voltage on bus b24 measured by sensor_10 : 10499.48 (!= 10499.58)
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001811
+mosaik_ids_lm_2  | Requirement 2 violated! Voltage on bus b24 measured by sensor_10 : 10499.48 (!= 10499.58)
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002738
+mosaik_ids_lm_2  | Requirement 2 violated! Voltage on bus b24 measured by sensor_10 : 10499.48 (!= 10499.58)
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002620
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000987
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001164
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000900
+mosaik_ids_lm_2  | Requirement 3 (local) violated! There is current on line branch_31 with an open switch
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001825
+mosaik_ids_lm_2  | Requirement 3 (local) violated! There is current on line branch_31 with an open switch
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001466
+mosaik_ids_lm_2  | Requirement 3 (local) violated! There is current on line branch_31 with an open switch
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001638
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001419
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000989
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001178
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001167
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001592
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002210
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000981
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001606
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001699
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000897
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001670
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000900
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001007
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001003
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001143
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001001
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001038
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001555
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001145
+mosaik_ids_lm_2  | Last cycle took (sec) 0.006860
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001042
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001033
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000873
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000878
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001062
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001003
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001050
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001386
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001035
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001351
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001071
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001372
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001392
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001725
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002414
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001795
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001787
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001913
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002736
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002115
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002068
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002187
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001179
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001160
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002221
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001708
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002038
+mosaik_ids_lm_2  | Modbus Error: [Input/Output] Server responded with bad response
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Connected to Modbus Server 'replay_csv:10503'
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000866
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000899
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000884
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002449
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001600
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000855
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001529
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001009
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001175
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001304
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001004
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001668
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001204
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001401
+mosaik_ids_lm_2  | Requirement 2 violated! Voltage on bus b24 measured by sensor_10 : 10499.48 (!= 10499.58)
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001606
+mosaik_ids_lm_2  | Requirement 2 violated! Voltage on bus b24 measured by sensor_10 : 10499.48 (!= 10499.58)
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001346
+mosaik_ids_lm_2  | Requirement 2 violated! Voltage on bus b24 measured by sensor_10 : 10499.48 (!= 10499.58)
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001440
+mosaik_ids_lm_2  | Requirement 2 violated! Voltage on bus b24 measured by sensor_10 : 10499.48 (!= 10499.58)
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001707
+mosaik_ids_lm_2  | Requirement 2 violated! Voltage on bus b24 measured by sensor_10 : 10499.48 (!= 10499.58)
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001616
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001179
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002119
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001668
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001016
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000943
+mosaik_ids_lm_2  | Requirement 3 (local) violated! There is current on line branch_31 with an open switch
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002053
+mosaik_ids_lm_2  | Requirement 3 (local) violated! There is current on line branch_31 with an open switch
+mosaik_ids_lm_2  | Last cycle took (sec) 0.003591
+mosaik_ids_lm_2  | Requirement 3 (local) violated! There is current on line branch_31 with an open switch
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001577
+mosaik_ids_lm_2  | Requirement 3 (local) violated! There is current on line branch_31 with an open switch
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001852
+mosaik_ids_lm_2  | Requirement 3 (local) violated! There is current on line branch_31 with an open switch
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001928
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001304
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000902
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001122
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001763
+mosaik_ids_lm_2  | Last cycle took (sec) 0.003046
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000862
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001864
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000903
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000891
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002531
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001403
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001096
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000927
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001006
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001151
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000959
+mosaik_ids_lm_2  | Last cycle took (sec) 0.003313
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002405
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000909
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001158
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000850
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002435
+mosaik_ids_lm_2  | Last cycle took (sec) 0.003542
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000897
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001836
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000971
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001065
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001158
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001529
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000998
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001135
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000961
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001369
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001183
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001056
+mosaik_ids_lm_2  | Last cycle took (sec) 0.004741
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002799
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001056
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000953
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000915
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001015
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002140
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002133
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001877
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002237
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002529
+mosaik_ids_lm_2  | Last cycle took (sec) 0.004141
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002335
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002227
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001144
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000878
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001018
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000929
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000904
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002984
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002976
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002512
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001186
+mosaik_ids_lm_2  | Last cycle took (sec) 0.003814
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001008
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001760
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000939
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000896
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001936
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000891
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000983
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001526
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000979
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001037
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001264
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001442
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001089
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000872
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001140
+mosaik_ids_lm_2  | Modbus Error: [Input/Output] Server responded with bad response
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Connected to Modbus Server 'replay_csv:10503'
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002111
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000871
+mosaik_ids_lm_2  | Last cycle took (sec) 0.004322
+mosaik_ids_lm_2  | Last cycle took (sec) 0.004288
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000938
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001216
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000922
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001309
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001169
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001036
+mosaik_ids_lm_2  | Last cycle took (sec) 0.003337
+mosaik_ids_lm_2  | Last cycle took (sec) 0.004789
+mosaik_ids_lm_2  | Last cycle took (sec) 0.003050
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001051
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001445
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001233
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001258
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001192
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001030
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000967
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001454
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000932
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001177
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001018
+mosaik_ids_lm_2  | Modbus Error: [Input/Output] Server responded with bad response
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Connected to Modbus Server 'replay_csv:10503'
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000973
+mosaik_ids_lm_2  | Last cycle took (sec) 0.003744
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001414
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000997
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001729
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000993
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001163
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000831
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001012
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001215
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001202
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001277
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001454
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001575
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001405
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000971
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001044
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001583
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002569
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001164
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002379
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002106
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002339
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002434
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002087
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001340
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001296
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001642
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001918
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002225
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001133
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001091
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001464
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001296
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001147
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001039
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001020
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001133
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001142
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001368
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001520
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001085
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001104
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001222
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000914
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001564
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000941
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000996
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001159
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001295
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001402
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001038
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000930
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002271
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001719
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001031
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001009
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001018
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001348
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001170
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001579
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000902
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002595
+mosaik_ids_lm_2  | Modbus Error: [Input/Output] Server responded with bad response
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Connected to Modbus Server 'replay_csv:10503'
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001413
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000841
+mosaik_ids_lm_2  | Last cycle took (sec) 0.003443
+mosaik_ids_lm_2  | Last cycle took (sec) 0.003826
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001009
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001142
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001033
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001118
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000941
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001035
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001127
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001211
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001401
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000908
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000902
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001465
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001832
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001663
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001059
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001365
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001114
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000883
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001323
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001560
+mosaik_ids_lm_2  | Last cycle took (sec) 0.003779
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001790
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001011
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000953
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001253
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001171
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000899
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001210
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002392
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002358
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002099
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002157
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002496
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001867
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001889
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001510
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002134
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001648
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002738
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000998
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000987
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000920
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001291
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000987
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001013
+mosaik_ids_lm_2  | Last cycle took (sec) 0.004231
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001308
+mosaik_ids_lm_2  | Last cycle took (sec) 0.003183
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001139
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001746
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001622
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001592
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001884
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001172
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001681
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000978
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000887
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001196
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001722
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002354
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001852
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002586
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000915
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001288
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001766
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000823
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001076
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002174
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001002
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001278
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001120
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001164
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001018
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001326
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001124
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001065
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001006
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001053
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001037
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001121
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000932
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001994
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001022
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000900
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001171
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001237
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001273
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000895
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000870
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002170
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001902
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001588
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001107
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000876
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000864
+mosaik_ids_lm_2  | Last cycle took (sec) 0.000906
+mosaik_ids_lm_2  | Last cycle took (sec) 0.001002
+mosaik_ids_lm_2  | Last cycle took (sec) 0.002379
+mosaik_ids_lm_2  | Modbus Error: [Input/Output] Server responded with bad response
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+mosaik_ids_lm_2  | Modbus Error: [Connection] Failed to connect[replay_csv:10503]
+^CGracefully stopping... (press Ctrl+C again to force)
+[+] Running 1/1
+ ⠿ Container mosaik_ids_lm_2  Stopped                                                                                                                                                                                                       10.2s
+canceled
+kaigrosshanten@MacBook-Pro-10 deployment % 

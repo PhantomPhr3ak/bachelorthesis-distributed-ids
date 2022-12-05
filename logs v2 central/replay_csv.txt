@@ -1,0 +1,213 @@
+Last login: Mon Dec  5 21:27:13 on ttys010
+kaigrosshanten@MacBook-Pro-10 deployment % cd PycharmProjects/distributed-smart-grid-ids/ids/deployment/
+cd: no such file or directory: PycharmProjects/distributed-smart-grid-ids/ids/deployment/
+kaigrosshanten@MacBook-Pro-10 deployment % docker compose up replay_csv
+[+] Running 1/0
+ ⠿ Container replay_csv  Created                                                                                                                                                                                                             0.0s
+Attaching to replay_csv
+replay_csv  | starting scenario 1 mit time 1
+replay_csv  | Lade Szenario
+replay_csv  | [*] Loading configuration XML: 'replay_csv/data/new_rtu_0.xml'.
+replay_csv  | [*] Loading configuration XML: 'replay_csv/data/new_rtu_1.xml'.
+replay_csv  | [*] Modbus-Server created @ 0.0.0.0:10502 for RTU
+replay_csv  | [*] Modbus-Server created @ 0.0.0.0:10503 for RTU
+replay_csv  | Server erstellt
+replay_csv  | Szenario wird gestartet
+replay_csv  | Started server 0
+replay_csv  | Started server 1
+replay_csv  | No more data available, stopping server
+replay_csv  | [*] Server stopping.
+replay_csv  | [*] Stopping server.
+replay_csv  | [*] Server stopping.[*] Stopping server.
+replay_csv  | Servers stopped
+replay_csv  | finished scenario 1
+replay_csv  | 
+replay_csv  | starting scenario 1 mit time 3
+replay_csv  | Lade Szenario
+replay_csv  | [*] Loading configuration XML: 'replay_csv/data/new_rtu_0.xml'.
+replay_csv  | [*] Loading configuration XML: 'replay_csv/data/new_rtu_1.xml'.
+replay_csv  | [*] Modbus-Server created @ 0.0.0.0:10502 for RTU
+replay_csv  | [*] Modbus-Server created @ 0.0.0.0:10503 for RTU
+replay_csv  | Server erstellt
+replay_csv  | Szenario wird gestartet
+replay_csv  | Started server 0
+replay_csv  | Started server 1
+replay_csv  | No more data available, stopping server
+replay_csv  | [*] Server stopping.
+replay_csv  | [*] Stopping server.
+replay_csv  | [*] Server stopping.
+replay_csv  | [*] Stopping server.
+replay_csv  | Servers stopped
+replay_csv  | finished scenario 1
+replay_csv  | starting scenario 1 mit time 5
+replay_csv  | Lade Szenario
+replay_csv  | [*] Loading configuration XML: 'replay_csv/data/new_rtu_0.xml'.
+replay_csv  | [*] Loading configuration XML: 'replay_csv/data/new_rtu_1.xml'.
+replay_csv  | [*] Modbus-Server created @ 0.0.0.0:10502 for RTU
+replay_csv  | [*] Modbus-Server created @ 0.0.0.0:10503 for RTU
+replay_csv  | Server erstellt
+replay_csv  | Szenario wird gestartet
+replay_csv  | Started server 0
+replay_csv  | Started server 1
+replay_csv  | No more data available, stopping server
+replay_csv  | [*] Server stopping.
+replay_csv  | [*] Stopping server.
+replay_csv  | [*] Server stopping.
+replay_csv  | [*] Stopping server.
+replay_csv  | Servers stopped
+replay_csv  | finished scenario 1
+replay_csv  | starting scenario 2 mit time 1
+replay_csv  | Lade Szenario
+replay_csv  | [*] Loading configuration XML: 'replay_csv/data/new_rtu_0.xml'.
+replay_csv  | [*] Loading configuration XML: 'replay_csv/data/new_rtu_1.xml'.
+replay_csv  | [*] Modbus-Server created @ 0.0.0.0:10502 for RTU
+replay_csv  | [*] Modbus-Server created @ 0.0.0.0:10503 for RTU
+replay_csv  | Server erstellt
+replay_csv  | Szenario wird gestartet
+replay_csv  | Started server 0
+replay_csv  | Started server 1
+replay_csv  | No more data available, stopping server
+replay_csv  | [*] Server stopping.
+replay_csv  | [*] Stopping server.
+replay_csv  | [*] Server stopping.
+replay_csv  | [*] Stopping server.
+replay_csv  | Servers stopped
+replay_csv  | finished scenario 2
+replay_csv  | starting scenario 2 mit time 3
+replay_csv  | Lade Szenario
+replay_csv  | [*] Loading configuration XML: 'replay_csv/data/new_rtu_0.xml'.
+replay_csv  | [*] Loading configuration XML: 'replay_csv/data/new_rtu_1.xml'.
+replay_csv  | [*] Modbus-Server created @ 0.0.0.0:10502 for RTU
+replay_csv  | [*] Modbus-Server created @ 0.0.0.0:10503 for RTU
+replay_csv  | Server erstellt
+replay_csv  | Szenario wird gestartet
+replay_csv  | Started server 0
+replay_csv  | Started server 1
+replay_csv  | No more data available, stopping server
+replay_csv  | [*] Server stopping.
+replay_csv  | [*] Stopping server.
+replay_csv  | [*] Server stopping.
+replay_csv  | [*] Stopping server.
+replay_csv  | Servers stopped
+replay_csv  | finished scenario 2
+replay_csv  | starting scenario 2 mit time 5
+replay_csv  | Lade Szenario
+replay_csv  | [*] Loading configuration XML: 'replay_csv/data/new_rtu_0.xml'.
+replay_csv  | [*] Loading configuration XML: 'replay_csv/data/new_rtu_1.xml'.
+replay_csv  | [*] Modbus-Server created @ 0.0.0.0:10502 for RTU
+replay_csv  | [*] Modbus-Server created @ 0.0.0.0:10503 for RTU
+replay_csv  | Server erstellt
+replay_csv  | Szenario wird gestartet
+replay_csv  | Started server 0
+replay_csv  | Started server 1
+replay_csv  | No more data available, stopping server
+replay_csv  | [*] Server stopping.
+replay_csv  | [*] Stopping server.
+replay_csv  | [*] Server stopping.
+replay_csv  | [*] Stopping server.
+replay_csv  | Servers stopped
+replay_csv  | finished scenario 2
+replay_csv  | starting scenario 3 mit time 1
+replay_csv  | Lade Szenario
+replay_csv  | [*] Loading configuration XML: 'replay_csv/data/new_rtu_0.xml'.
+replay_csv  | [*] Loading configuration XML: 'replay_csv/data/new_rtu_1.xml'.
+replay_csv  | [*] Modbus-Server created @ 0.0.0.0:10502 for RTU
+replay_csv  | [*] Modbus-Server created @ 0.0.0.0:10503 for RTU
+replay_csv  | Server erstellt
+replay_csv  | Szenario wird gestartet
+replay_csv  | Started server 0
+replay_csv  | Started server 1
+replay_csv  | No more data available, stopping server
+replay_csv  | [*] Server stopping.[*] Stopping server.
+replay_csv  | 
+replay_csv  | [*] Server stopping.[*] Stopping server.
+replay_csv  | Servers stopped
+replay_csv  | finished scenario 3
+replay_csv  | 
+replay_csv  | starting scenario 3 mit time 3
+replay_csv  | Lade Szenario
+replay_csv  | [*] Loading configuration XML: 'replay_csv/data/new_rtu_0.xml'.
+replay_csv  | [*] Loading configuration XML: 'replay_csv/data/new_rtu_1.xml'.
+replay_csv  | [*] Modbus-Server created @ 0.0.0.0:10502 for RTU
+replay_csv  | [*] Modbus-Server created @ 0.0.0.0:10503 for RTU
+replay_csv  | Server erstellt
+replay_csv  | Szenario wird gestartet
+replay_csv  | Started server 0
+replay_csv  | Started server 1
+replay_csv  | No more data available, stopping server
+replay_csv  | [*] Server stopping.[*] Stopping server.
+replay_csv  | 
+replay_csv  | [*] Server stopping.[*] Stopping server.
+replay_csv  | Servers stopped
+replay_csv  | finished scenario 3
+replay_csv  | 
+replay_csv  | starting scenario 3 mit time 5
+replay_csv  | Lade Szenario
+replay_csv  | [*] Loading configuration XML: 'replay_csv/data/new_rtu_0.xml'.
+replay_csv  | [*] Loading configuration XML: 'replay_csv/data/new_rtu_1.xml'.
+replay_csv  | [*] Modbus-Server created @ 0.0.0.0:10502 for RTU
+replay_csv  | [*] Modbus-Server created @ 0.0.0.0:10503 for RTU
+replay_csv  | Server erstellt
+replay_csv  | Szenario wird gestartet
+replay_csv  | Started server 0
+replay_csv  | Started server 1
+replay_csv  | No more data available, stopping server
+replay_csv  | [*] Server stopping.
+replay_csv  | [*] Stopping server.
+replay_csv  | [*] Server stopping.[*] Stopping server.
+replay_csv  | Servers stopped
+replay_csv  | finished scenario 3
+replay_csv  | 
+replay_csv  | starting scenario 4 mit time 1
+replay_csv  | Lade Szenario
+replay_csv  | [*] Loading configuration XML: 'replay_csv/data/new_rtu_0.xml'.
+replay_csv  | [*] Loading configuration XML: 'replay_csv/data/new_rtu_1.xml'.
+replay_csv  | [*] Modbus-Server created @ 0.0.0.0:10502 for RTU
+replay_csv  | [*] Modbus-Server created @ 0.0.0.0:10503 for RTU
+replay_csv  | Server erstellt
+replay_csv  | Szenario wird gestartet
+replay_csv  | Started server 0
+replay_csv  | Started server 1
+replay_csv  | No more data available, stopping server
+replay_csv  | [*] Server stopping.
+replay_csv  | [*] Stopping server.
+replay_csv  | [*] Server stopping.
+replay_csv  | [*] Stopping server.
+replay_csv  | Servers stopped
+replay_csv  | finished scenario 4
+replay_csv  | starting scenario 4 mit time 3
+replay_csv  | Lade Szenario
+replay_csv  | [*] Loading configuration XML: 'replay_csv/data/new_rtu_0.xml'.
+replay_csv  | [*] Loading configuration XML: 'replay_csv/data/new_rtu_1.xml'.
+replay_csv  | [*] Modbus-Server created @ 0.0.0.0:10502 for RTU
+replay_csv  | [*] Modbus-Server created @ 0.0.0.0:10503 for RTU
+replay_csv  | Server erstellt
+replay_csv  | Szenario wird gestartet
+replay_csv  | Started server 0
+replay_csv  | Started server 1
+replay_csv  | No more data available, stopping server
+replay_csv  | [*] Server stopping.
+replay_csv  | [*] Stopping server.
+replay_csv  | [*] Server stopping.[*] Stopping server.
+replay_csv  | 
+replay_csv  | Servers stopped
+replay_csv  | finished scenario 4
+replay_csv  | starting scenario 4 mit time 5
+replay_csv  | Lade Szenario
+replay_csv  | [*] Loading configuration XML: 'replay_csv/data/new_rtu_0.xml'.
+replay_csv  | [*] Loading configuration XML: 'replay_csv/data/new_rtu_1.xml'.
+replay_csv  | [*] Modbus-Server created @ 0.0.0.0:10502 for RTU
+replay_csv  | [*] Modbus-Server created @ 0.0.0.0:10503 for RTU
+replay_csv  | Server erstellt
+replay_csv  | Szenario wird gestartet
+replay_csv  | Started server 0
+replay_csv  | Started server 1
+replay_csv  | No more data available, stopping server
+replay_csv  | [*] Server stopping.
+replay_csv  | [*] Stopping server.
+replay_csv  | [*] Server stopping.
+replay_csv  | [*] Stopping server.
+replay_csv  | Servers stopped
+replay_csv  | finished scenario 4
+replay_csv exited with code 0
+kaigrosshanten@MacBook-Pro-10 deployment % 
